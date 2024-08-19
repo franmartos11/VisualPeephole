@@ -41,7 +41,7 @@ export default function Form() {
                     </div>
 
                     <div className="sm:col-span-2 ">
-                        <label className="block mb-2 text-sm font-medium text-gray-700">
+                        <label className="block mb-2 text-sm font-medium text-gray-400">
                             Message
                         </label>
                         <input
@@ -55,7 +55,7 @@ export default function Form() {
                     <div className=" text-center ">
                         <button
                             type="submit"
-                            className="py-3 px-9 text-sm font-medium text-center  text-white rounded-lg bg-black sm:w-fit hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-primary-300 "
+                            className="py-3 px-9 text-sm font-medium text-center  text-black rounded-lg bg-gray-200 sm:w-fit hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-primary-300 "
                         >
                             Send
                         </button>

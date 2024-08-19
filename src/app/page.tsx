@@ -18,12 +18,11 @@ export default function Home() {
       <NavbarDemo></NavbarDemo>
       <TabletHome></TabletHome>
       <GridLayout></GridLayout>
-      
       <CardHoverEffectDemo></CardHoverEffectDemo>
-      
       <WobbleCardDemo></WobbleCardDemo>
       <SkeletonFour></SkeletonFour>
       <Form></Form>
+     
     </main>
   );
 }
