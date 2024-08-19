@@ -6,7 +6,7 @@ export default function Form() {
                     Contact Us
                 </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-300 sm:text-xl">
-                We’re here to help! Fill out the form below, and we'll be happy to answer your questions, discuss potential collaborations, or explore your ideas.
+                Were here to help! Fill out the form below, and we ll be happy to answer your questions, discuss potential collaborations, or explore your ideas.
                 </p>
                 <form
                     action="https://formsubmit.co/"

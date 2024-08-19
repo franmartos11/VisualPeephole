@@ -20,7 +20,7 @@ export function WobbleCardDemo() {
           Affordable Prices
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-          With our cost-effective solutions, you don't need an in-house 3D visualization department. We offer high-quality services at a fraction of the cost.
+          With our cost-effective solutions, you don t need an in-house 3D visualization department. We offer high-quality services at a fraction of the cost.
           </p>
         </div>
         <Image
