@@ -22,7 +22,7 @@ export default function Home() {
       <WobbleCardDemo></WobbleCardDemo>
       <SkeletonFour></SkeletonFour>
       <Form></Form>
-     
+      <Footer></Footer>
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function () {
+export default function Footer () {
     return (
         <div className="relative   px-4 pt-20 bg-black">
             <hr className="h-px mb-[5rem] mt-[-5.5rem] bg-black"></hr>
