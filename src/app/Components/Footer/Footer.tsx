@@ -44,7 +44,7 @@ export default function Footer () {
                 </a>
             </nav>
             <p className="py-10 text-center text-gray-300">
-                © 2024 Aspa Software | All Rights Reserved
+                © 2024 Visualpeephole | Designed by Aspa Software
             </p>
         </div>
     );
