@@ -155,7 +155,7 @@ export default function ContactCardImg() {
                                 <span className="mx-2  truncate w-72 text-gray-600">
                                     <a
                                         title="link"
-                                        href="mailto:aspasoftwaredevelopment@gmail.com"
+                                        href="mailto:info@Visualpeephole.com"
                                     >
                                         info@Visualpeephole.com
                                     </a>
@@ -170,7 +170,7 @@ export default function ContactCardImg() {
                                 <a
                                     title="link"
                                     className="mx-1.5 hover:text-blue-400 text-gray-900 transition-colors duration-300 transform "
-                                    href="https://www.linkedin.com/company/85621550/admin/feed/posts/"
+                                    href="https://www.linkedin.com/company/visual-peephole/"
                                 >
                                     <svg
                                         className="w-8 h-8"
@@ -196,7 +196,7 @@ export default function ContactCardImg() {
                                 <a
                                     title="link"
                                     className="mx-1.5 hover:text-pink-400 text-gray-900 transition-colors duration-300 transform "
-                                    href="https://www.instagram.com/aspa.software"
+                                    href="https://www.instagram.com/visual.peephole"
                                 >
                                     <svg
                                         className="w-8 h-8"
