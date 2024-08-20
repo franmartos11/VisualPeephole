@@ -3,7 +3,7 @@ import { NavbarDemo } from "../Components/Navbar/Navbar";
 import ContactCardImg from "./ContactCardImg";
 
 
-export default function () {
+export default function Contact() {
     return (
         <div>
             <NavbarDemo></NavbarDemo>

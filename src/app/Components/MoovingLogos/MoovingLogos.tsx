@@ -1,4 +1,4 @@
-export default function () {
+export default function MoovingLogos() {
     return (
         <div className="pb-[10rem] ">
             
