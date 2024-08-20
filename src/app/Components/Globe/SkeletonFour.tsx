@@ -33,7 +33,7 @@ export const Globe = ({ className }: { className?: string }) => {
       height: 600 * 2,
       phi: 0,
       theta: 0,
-      dark: 1,
+      dark: 0.7,
       diffuse: 1.2,
       mapSamples: 16000,
       mapBrightness: 6,
