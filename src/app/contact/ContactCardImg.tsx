@@ -103,7 +103,7 @@ export default function ContactCardImg() {
                                 <span className="mx-2  truncate w-72 text-gray-600">
                                     <a
                                         title="link"
-                                        href="https://www.google.com/maps/place/ASPA+software/@-31.4105525,-64.1954704,17z/data=!3m1!4b1!4m6!3m5!1s0x94329971ec68f335:0x312ba76f9ee8aeac!8m2!3d-31.4105525!4d-64.1928955!16s%2Fg%2F11kjyf86bj?entry=ttu"
+                                        href="https://www.google.com/maps/place/744+Jefferson+Ave,+Miami+Beach,+FL+33139,+EE.+UU./@25.7778414,-80.1401509,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b48b5eb638bb:0x2320cda3a9e4490!8m2!3d25.7778414!4d-80.1375706!16s%2Fg%2F11c10j64my?hl=es&entry=ttu"
                                     >
                                         744 Jefferson Ave, Miami, FL 33139
                                     </a>
@@ -129,7 +129,7 @@ export default function ContactCardImg() {
                                 <span className="mx-2  truncate w-72 ms:w-50 text-gray-600">
                                     <a
                                         title="link"
-                                        href="https://wa.me/5493513140217?text=Hola,%20quiero%20enviar%20un%20mensaje%20a%20trav%C3%A9s%20de%20WhatsApp."
+                                        href="https://wa.me/7866544082?"
                                     >
                                         +1 (786) 654 4082
                                     </a>
