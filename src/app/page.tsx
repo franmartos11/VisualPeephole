@@ -13,7 +13,7 @@ import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
 export default function Home() {
   return (
     <main >
-      
+      <CommingSoon></CommingSoon>
       <NavbarDemo></NavbarDemo>
       <TabletHome></TabletHome>
       <GridLayout></GridLayout>

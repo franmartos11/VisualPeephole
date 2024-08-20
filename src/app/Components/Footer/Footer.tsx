@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <div className="relative   px-4 pt-20 ">
-            <hr className="h-px mb-[5rem] mt-[-5.5rem] h-[0.1rem] bg-black"></hr>
+            <hr className=" mb-[5rem] mt-[-5.5rem] h-[0.1rem] bg-black"></hr>
             <div className="absolute -top-10 left-1/2 h-16 w-16 -translate-x-1/2 rounded-xl border-4  bg-gray-700 p-[0.2rem]">
                 <Link title="link" href={"#top-page"}>
                     <img
