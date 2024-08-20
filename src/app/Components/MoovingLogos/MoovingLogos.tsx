@@ -135,7 +135,7 @@ export default function MoovingLogos() {
                             src="/dazalogo.png"
                             title="logo"
                             alt="logo"
-                            className=" h-[3rem]"
+                            className=" h-[5rem]"
                         />
                     </a>
 
