@@ -21,15 +21,15 @@ function Navbar({ className }: { className?: string }) {
                 <HoveredLink href="/">About</HoveredLink>
                 <MenuItem setActive={setActive} active={active} item="Services">
                     <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/web-dev">Exterior Renders</HoveredLink>
-                        <HoveredLink href="/interface-design">Interior Renders</HoveredLink>
-                        <HoveredLink href="/seo">Animations</HoveredLink>
-                        <HoveredLink href="/branding">BIM Solutions</HoveredLink>
-                        <HoveredLink href="/branding">Modeling</HoveredLink>
-                        <HoveredLink href="/branding">Solid Works</HoveredLink>
+                        <HoveredLink href="/">Exterior Renders</HoveredLink>
+                        <HoveredLink href="/">Interior Renders</HoveredLink>
+                        <HoveredLink href="/">Animations</HoveredLink>
+                        <HoveredLink href="/">BIM Solutions</HoveredLink>
+                        <HoveredLink href="/">Modeling</HoveredLink>
+                        <HoveredLink href="/">Solid Works</HoveredLink>
                     </div>
                 </MenuItem>
-                <HoveredLink href="/">Contact</HoveredLink>
+                <HoveredLink href="/contact">Contact</HoveredLink>
             </Menu>
         </nav>
     );

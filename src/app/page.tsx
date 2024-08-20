@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import { WobbleCard } from "./Components/WobbleCard/Wooble";
 import { WobbleCardDemo } from "./Components/WobbleCard/WoobleCardDemo";
 import Form from "./Components/Forms/Form";
+import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <CardHoverEffectDemo></CardHoverEffectDemo>
       <WobbleCardDemo></WobbleCardDemo>
       <SkeletonFour></SkeletonFour>
+      <MoovingLogos></MoovingLogos>
       <Form></Form>
       <Footer></Footer>
     </main>
