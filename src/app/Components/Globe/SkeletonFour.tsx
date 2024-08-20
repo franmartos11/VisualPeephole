@@ -5,7 +5,7 @@ import createGlob from "cobe";
 export const SkeletonFour = () => {
   return (
     <div className="h-auto  flex flex-col items-center mt-10 relative z-10">
-      <h3 className="px-40 pb-10 text-4xl font-semibold  text-center">
+      <h3 className="px-40 pb-10 pt-14 text-4xl font-semibold  text-center">
         Located in Miami, working worldwide
       </h3>
       <Globe className=" w-full" />
