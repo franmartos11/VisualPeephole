@@ -20,7 +20,7 @@ export default function ImageWithContent2() {
                         Turn Your Vision into Reality
                         </h2>
                         <p className="mt-4 text-base text-gray-800">
-                        With our exterior visualizations, you can confidently move forward with your project, knowing exactly how it will look upon completion. Our realistic and high-definition renders serve as a powerful tool for presentations, client approvals, and project planning. See your ideas come to life and make informed decisions with our professional rendering services.
+                        With our exterior visualizations, you can confidently move forward with your project, knowing exactly how it will look upon completion. Our realistic and high definition renders serve as a powerful tool for presentations, client approvals, and project planning. See your ideas come to life and make informed decisions with our professional rendering services.
                         </p>
                         <div className="mt-12 mb-10 text-center">
                             <Link

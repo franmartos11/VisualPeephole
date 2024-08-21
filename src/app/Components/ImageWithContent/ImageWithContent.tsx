@@ -21,7 +21,7 @@ export default function ImageWithContent() {
                         </h2>
 
                         <p className="mt-4 text-base text-gray-900">
-                            Explore how our cutting-edge exterior renders can bring your outdoor projects to life. From stunning residential landscapes to innovative commercial designs, our high-quality visualizations help you envision every detail with clarity. Whether you're planning a garden, patio, or entire facade, our team delivers precise and engaging renders that capture your vision and inspire possibilities.
+                            Explore how our cutting edge exterior renders can bring your outdoor projects to life. From stunning residential landscapes to innovative commercial designs, our high quality visualizations help you envision every detail with clarity. Whether you re planning a garden, patio, or entire facade, our team delivers precise and engaging renders that capture your vision and inspire possibilities.
                             <br />
                             <br />
                             Discover a selection of our recent projects and see how we turn concepts into vivid, realistic images. Let us help you make informed decisions and achieve your design goals with confidence.
