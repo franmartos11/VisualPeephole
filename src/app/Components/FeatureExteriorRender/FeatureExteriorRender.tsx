@@ -7,7 +7,7 @@ export default function FeatureExteriorRender(){
 
     <div className="flex flex-col lg:flex-row">
         
-    <div className=" p-[1rem]  w-1/2 md:w-[30rem] md:h-[30rem] mx-auto overflow-hidden">
+    <div className=" p-[1rem] md:w-[35rem] md:h-[35rem] mx-auto overflow-hidden">
     <img 
         className="w-full h-full object-cover rounded-lg " 
         src="/render7.jpeg" 
