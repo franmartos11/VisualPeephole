@@ -54,7 +54,7 @@ export default function ContactCardImg() {
 
                             <div className="w-full mt-4">
                                 <label className="block mb-2 text-sm text-gray-900">
-                                    Menssage
+                                    Message
                                 </label>
                                 <input
                                     type="telefono"
@@ -105,7 +105,7 @@ export default function ContactCardImg() {
                                         title="link"
                                         href="https://www.google.com/maps/place/744+Jefferson+Ave,+Miami+Beach,+FL+33139,+EE.+UU./@25.7778414,-80.1401509,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b48b5eb638bb:0x2320cda3a9e4490!8m2!3d25.7778414!4d-80.1375706!16s%2Fg%2F11c10j64my?hl=es&entry=ttu"
                                     >
-                                        744 Jefferson Ave, Miami, FL 33139
+                                        Miami, Forida
                                     </a>
                                 </span>
                             </p>
