@@ -35,15 +35,16 @@ export const projects = [
         link: "https://meta.com",
     },
     {
-        title: "SOLIDWORKS",
-        description:
-            "Utilize our SolidWorks expertise to develop detailed and precise engineering models, enhancing your design workflow and project outcomes.",
-        link: "https://amazon.com",
-    },
-    {
         title: "BIM SOLUTIONS",
         description:
             "Optimize your project management with our comprehensive BIM solutions, providing integrated and efficient workflows for building design and construction.",
         link: "https://microsoft.com",
     },
+    {
+        title: "SOLIDWORKS",
+        description:
+            "Utilize our SolidWorks expertise to develop detailed and precise engineering models, enhancing your design workflow and project outcomes.",
+        link: "https://amazon.com",
+    },
+   
 ];
