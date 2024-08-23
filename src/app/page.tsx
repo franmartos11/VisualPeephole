@@ -8,13 +8,16 @@ import Footer from "./Components/Footer/Footer";
 import { WobbleCardDemo } from "./Components/WobbleCard/WoobleCardDemo";
 import Form from "./Components/Forms/Form";
 import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
+import { TypewriterEffectSmoothDemoHome } from "./Components/TextHome/Textwritter";
 
 
 export default function Home() {
   return (
     <main >
-      <CommingSoon></CommingSoon>
       <NavbarDemo></NavbarDemo>
+      
+      <TypewriterEffectSmoothDemoHome></TypewriterEffectSmoothDemoHome>
+      <CommingSoon></CommingSoon>
       <TabletHome></TabletHome>
       <GridLayout></GridLayout>
       <CardHoverEffectDemo></CardHoverEffectDemo>

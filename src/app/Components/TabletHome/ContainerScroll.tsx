@@ -36,11 +36,11 @@ export const ContainerScroll = ({
 
   return (
     <div
-      className="h-auto md:h-[80rem]  flex items-center justify-center relative p-2  md:p-[7rem]"
+      className="h-auto md:h-[67rem]  flex items-center justify-center relative  md:p-[7rem]  "
       ref={containerRef}
     >
       <div
-        className="py-10 md:py-10 w-full h-full  relative  "
+        className="pt-10 md:py-10 w-full h-full  relative  "
         style={{
           perspective: "1000px",
         }}
@@ -83,7 +83,7 @@ export const Card = ({
         rotateX: rotate,
         scale,
         boxShadow:
-          "0 0 #0000004d, 0 9px 20px #0000004a, 0 37px 37px #00000042, 0 84px 50px #00000026, 0 149px 60px #0000000a, 0 233px 65px #00000003",
+          "0 0 #0000004d, 0 9px 20px #0000004a, 0 37px 37px #00000042, 0 84px 50px #00000026, 0 149px 60px #0000000a, 0 180px 65px #00000003",
       }}
       className="translateY: translate max-w-5xl -mt-10 mx-auto h-cover  w-full border-4 border-[#6C6C6C] p-2 md:p-6 bg-[#222222] rounded-[30px] shadow-2xl"
     >

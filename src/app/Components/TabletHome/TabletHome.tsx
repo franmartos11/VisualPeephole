@@ -9,8 +9,8 @@ export function TabletHome() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
-            Incredible 3D services <br />
+            <h1 className="text-xl md:text-3xl font-semibold text-black dark:text-white pt-[2rem]">
+            Conveying Purposes & Abstractions <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 Visual Peephole
               </span>
@@ -20,7 +20,7 @@ export function TabletHome() {
       >
         <div className="relative mx-auto rounded-2xl overflow-hidden">
           <video
-            src={'/VideoHomeTablet.mp4'} // Reemplaza con la ruta de tu video
+            src={'/VideoHomeTablet.mp4'} 
             className="w-full h-auto object-cover"
             autoPlay
             loop
