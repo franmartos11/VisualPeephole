@@ -45,12 +45,12 @@ export default function Footer() {
             </nav>
             <div className="flex justify-center space-x-5">
         <a href="https://www.youtube.com/@visualpeephole" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/youtube-logo-new.png" />
+            <img src="https://img.icons8.com/fluent/30/000000/youtube.png" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" />
+        <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
         </a>
-        <a href="https://www.instagram.com/visual.peephole/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/visual.peephole/" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
         </a>
         
