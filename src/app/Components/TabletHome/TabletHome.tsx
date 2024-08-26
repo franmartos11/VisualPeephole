@@ -20,7 +20,7 @@ export function TabletHome() {
       >
         <div className="relative mx-auto rounded-2xl overflow-hidden">
           <video
-            src={'/VideoHomeTablet.mp4'} 
+            src={'/VideoHomeTablet.mp'} 
             className="w-full h-auto object-cover"
             autoPlay
             loop
