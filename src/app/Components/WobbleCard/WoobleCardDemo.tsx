@@ -24,7 +24,7 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <Image
-          src="/pip.jpeg"
+          src="/render2.jpeg"
           width={500}
           height={500}
           alt="linear demo image"

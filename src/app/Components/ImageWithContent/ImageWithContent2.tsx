@@ -9,7 +9,7 @@ export default function ImageWithContent2() {
                         <Image
                             alt="quienes somos"
                             title="quienes somos"
-                            src="/render5.jpeg"
+                            src="/render2.jpeg"
                             className=" h-[100%] rounded-lg w-full object-cover"
                             width={500}
                             height={100}
