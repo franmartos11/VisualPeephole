@@ -9,19 +9,20 @@ import { WobbleCardDemo } from "./Components/WobbleCard/WoobleCardDemo";
 import Form from "./Components/Forms/Form";
 import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
 import { TypewriterEffectSmoothDemoHome } from "./Components/TextHome/Textwritter";
+import { TimelineDemo } from "./Components/StepperHowWeWork/TimelineDemo";
 
 
 export default function Home() {
   return (
     <main >
       <NavbarDemo></NavbarDemo>
-      
       <TypewriterEffectSmoothDemoHome></TypewriterEffectSmoothDemoHome>
       <CommingSoon></CommingSoon>
       <TabletHome></TabletHome>
       <GridLayout></GridLayout>
       <CardHoverEffectDemo></CardHoverEffectDemo>
       <WobbleCardDemo></WobbleCardDemo>
+      <TimelineDemo></TimelineDemo>
       <SkeletonFour></SkeletonFour>
       <MoovingLogos></MoovingLogos>
       <Form></Form>
