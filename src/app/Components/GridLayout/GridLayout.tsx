@@ -5,7 +5,7 @@ import { LayoutGrid } from "./Layout";
 export function GridLayout() {
   return (
     <div className="h-screen py-20 w-full">
-    <h2 className=" px-40 pb-[1rem] text-4xl font-semibold text-black dark:text-white text-center"> We provide 3D services for architectural and engineering projects.</h2>
+    <h2 className=" pb-[1rem] text-4xl font-semibold text-black dark:text-white text-center"> We provide 3D services for architectural and engineering projects.</h2>
       <LayoutGrid cards={cards} />
     </div>
   );
