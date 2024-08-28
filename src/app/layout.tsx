@@ -14,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <head>
-
         <Script
           id="gtm"
           strategy="afterInteractive"
@@ -33,7 +32,6 @@ export default function RootLayout({
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
         <meta name="language" content="English"></meta>
       </head>
-
       <body className={inter.className}>{children}</body>
     </html>
   );
