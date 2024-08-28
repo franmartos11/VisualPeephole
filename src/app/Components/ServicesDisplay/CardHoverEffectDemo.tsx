@@ -20,31 +20,31 @@ export const projects = [
         title: "INTERIOR RENDERS",
         description:
             "Transform your interior concepts into vivid, lifelike visuals with our detailed interior renders, perfect for design presentations and client approvals.",
-        link: "/ExteriorRenders",
+        link: "/InteriorRenders",
     },
     {
         title: "ANIMATIONS",
         description:
             "Engage your audience with captivating 3D animations that bring your architectural visions to life through dynamic, interactive visuals.",
-        link: "/ExteriorRenders",
+        link: "/Animations",
     },
     {
         title: "MODELING",
         description:
             "From conceptual designs to detailed models, our 3D modeling services provide accurate and realistic representations for any project.",
-        link: "/ExteriorRenders",
+        link: "/Modeling",
     },
     {
         title: "BIM SOLUTIONS",
         description:
             "Optimize your project management with our comprehensive BIM solutions, providing integrated and efficient workflows for building design and construction.",
-        link: "/ExteriorRenders",
+        link: "/BimSolutions",
     },
     {
         title: "SOLIDWORKS",
         description:
             "Utilize our SolidWorks expertise to develop detailed and precise engineering models, enhancing your design workflow and project outcomes.",
-        link: "/ExteriorRenders",
+        link: "/SolidWorks",
     },
    
 ];
