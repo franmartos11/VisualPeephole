@@ -15,48 +15,20 @@ export default function Footer() {
                     />
                 </Link>
             </div>
-            <nav
-                aria-label="Footer Navigation"
-                className="mx-auto  mb-10 flex max-w-lg flex-col gap-10 text-center justify-center sm:flex-row sm:text-left"
-            >
-                <a title="link" href="/" className="font-medium text-black">
-                    Inicio
-                </a>
-                <a
-                    title="link"
-                    href="/servicios"
-                    className="font-medium text-black"
-                >
-                    Servicios
-                </a>
-                <a
-                    title="link"
-                    href="/nosotros"
-                    className="font-medium text-black"
-                >
-                    Nosotros
-                </a>
-                <a
-                    title="link"
-                    href="/contact"
-                    className="font-medium text-black"
-                >
-                    Contacto
-                </a>
-            </nav>
+            
             <div className="flex justify-center space-x-5">
-        <a href="https://www.youtube.com/@visualpeephole" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/@visualpeephole" target="_blank" aria-label="See more about us in YouTube " rel="noopener noreferrer">
         
             <img alt="Youtube Logo" src="https://img.icons8.com/fluent/30/000000/youtube.png" />
         </a>
-        <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" aria-label="See more about us in Linkdin " rel="noopener noreferrer">
             <img alt="Linkdin Logo" src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
         </a>
-        <a href="https://www.instagram.com/visual.peephole/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/visual.peephole/" target="_blank" aria-label="See more about us in Instagram " rel="noopener noreferrer">
             <img alt="Instagram Logo" src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
         </a>
         
-        <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" rel="noopener noreferrer">
+        <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">
             <img alt="Pinterest Logo" src="https://img.icons8.com/fluent/30/000000/pinterest.png" />
         </a>
     </div>
