@@ -2,7 +2,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
-import Image from "next/image";
 
 type Card = {
   id: number;
@@ -50,7 +49,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
       <motion.div
         onClick={handleOutsideClick}
         className={cn(
-          "absolute h-full w-full left-0 top-0 bg-black opacity-0 z-10",
+          "absolute h-full w-full left-0 top-0  z-10",
           selected?.id ? "pointer-events-auto" : "pointer-events-none"
         )}
         animate={{ opacity: selected?.id ? 0.3 : 0 }}
@@ -67,7 +66,7 @@ const ImageComponent = ({ card }: { card: Card }) => {
       height="500"
       width="500"
       className={cn(
-        "object-cover object-bottom absolute inset-0 h-full w-full transition duration-200"
+        "object-cover  absolute inset-0 h-full w-full transition duration-200"
       )}
       alt="thumbnail"
     />
@@ -84,7 +83,7 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
         animate={{
           opacity: 0.6,
         }}
-        className="absolute inset-0 h-full w-full bg-black opacity-60 z-10"
+        className="absolute inset-0 h-full w-full bg-black opacity-20 z-10"
       />
       <motion.div
         layoutId={`content-${selected?.id}`}
