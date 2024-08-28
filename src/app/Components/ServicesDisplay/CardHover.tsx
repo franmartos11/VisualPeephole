@@ -49,7 +49,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card code={item.title} >
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
@@ -62,12 +62,14 @@ export const HoverEffect = ({
 export const Card = ({
   className,
   children,
+  code,
 }: {
   className?: string;
   children: React.ReactNode;
+  code: string;
 }) => {
   return (
-    <div 
+    <div id={code}
     
       className={cn(
         " rounded-2xl  h-[16rem] w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20 [background-image:radial-gradient(88%_100%_at_top,rgba(255,255,255,0.5),rgba(255,255,255,0))]",
