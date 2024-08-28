@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 export default function Footer() {
     return (
         <div className="relative   px-4 pt-20 ">
@@ -45,17 +46,18 @@ export default function Footer() {
             </nav>
             <div className="flex justify-center space-x-5">
         <a href="https://www.youtube.com/@visualpeephole" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/youtube.png" />
+        
+            <img alt="Youtube Logo" src="https://img.icons8.com/fluent/30/000000/youtube.png" />
         </a>
         <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            <img alt="Linkdin Logo" src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
         </a>
         <a href="https://www.instagram.com/visual.peephole/" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            <img alt="Instagram Logo" src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
         </a>
         
         <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/pinterest.png" />
+            <img alt="Pinterest Logo" src="https://img.icons8.com/fluent/30/000000/pinterest.png" />
         </a>
     </div>
             <p className="py-10 text-center text-gray-600">
