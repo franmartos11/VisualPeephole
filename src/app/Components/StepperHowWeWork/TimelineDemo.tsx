@@ -8,7 +8,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className=" text-xs md:text-lg  mb-8">
-            During the initial consultation, the client discusses their project requirements with the team. This stage involves understanding the client vision, objectives, and specific needs for the renderings. The team gathers detailed information, including any preferences for style, format, and deadlines. 
+            During the initial consultation, the client discusses their project requirements with the team. This stage involves understanding the client vision, objectives, and specific needs for the concepts. The team gathers detailed information, including any preferences for style, format, and deadlines. 
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -49,7 +49,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-xs md:text-lg  mb-8">
-          In the concept development stage, the team creates preliminary sketches or digital mockups based on the information gathered during the consultation. The client is given up to three rounds of revisions to refine and adjust the mockups. This iterative process allows the client to provide feedback and make adjustments before finalizing the renderings. 
+          In the concept development stage, the team creates preliminary sketches or digital mockups based on the information gathered during the consultation. <strong>The client is given up to three rounds of revisions</strong>  to refine and adjust the mockups. This iterative process allows the client to provide feedback and make adjustments before finalizing the concepts. 
           The goal is to ensure that the mockup aligns closely with the client s 
           vision before moving on to production.
           </p>
@@ -92,8 +92,8 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-xs md:text-lg  mb-8">
-          Once the concepts are approved and any revisions are finalized, the rendering production phase begins. 
-          The team creates high-quality, detailed renderings based on the approved mockups. 
+          Once the concepts are approved and any revisions are finalized, the concept production phase begins. 
+          The team creates high-quality, detailed concepts based on the approved mockups. 
           This process uses advanced software and techniques to deliver visuals that meet the client s specifications.
            Regular updates are provided to the client to ensure that the project stays on track and aligns with their expectations.
           </p>
@@ -136,7 +136,7 @@ export function TimelineDemo() {
         content: (
           <div>
             <p className="text-xs md:text-lg mb-8">
-            In the final review and delivery stage, the completed renderings are presented to the client for final approval. This stage concludes with a review of the project to confirm all objectives have been met and to discuss potential future collaborations.
+            In the final review and delivery stage, the completed concepts are presented to the client for final approval. This stage concludes with a review of the project to confirm all objectives have been met and to discuss potential future collaborations.
             </p>
             
             <div className="grid grid-cols-2 gap-4">

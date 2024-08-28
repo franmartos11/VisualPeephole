@@ -18,7 +18,7 @@ export default function Home() {
       <NavbarDemo></NavbarDemo>
       <TypewriterEffectSmoothDemoHome></TypewriterEffectSmoothDemoHome>
       <CommingSoon></CommingSoon>
-      <TabletHome></TabletHome>
+      
       <GridLayout></GridLayout>
       <CardHoverEffectDemo></CardHoverEffectDemo>
       <WobbleCardDemo></WobbleCardDemo>
