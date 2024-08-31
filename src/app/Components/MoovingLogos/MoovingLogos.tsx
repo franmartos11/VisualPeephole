@@ -21,6 +21,32 @@ export default function MoovingLogos() {
                     <a
                         title="link"
                         target="_blank"
+                        href="https://servteching.com"
+                        className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/logo-servechi.png"
+                            alt="logo"
+                            title="logo"
+                            className=" h-[5rem] "
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://www.technoglobalinc.com"
+                        className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/techno_global_inc__logo.webp"
+                            alt="logo"
+                            title="logo"
+                            className=" h-[5rem] "
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
                         href="https://wilesdesigngroup.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
@@ -84,6 +110,32 @@ export default function MoovingLogos() {
                             alt="logo"
                             title="logo"
                             className=" h-[4rem] "
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://servteching.com"
+                        className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/logo-servechi.png"
+                            alt="logo"
+                            title="logo"
+                            className=" h-[5rem] "
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://www.technoglobalinc.com"
+                        className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/techno_global_inc__logo.webp"
+                            alt="logo"
+                            title="logo"
+                            className=" h-[5rem] "
                         />
                     </a>
                     <a
