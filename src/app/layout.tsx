@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta name="description" content="At Visual Peephole, we specialize in transforming your concepts into stunning visual realities. Whether you're an architect, real estate developer, or designer, our expert team offers a comprehensive range of services to bring your projects to life with exceptional clarity and detail."></meta>
         <meta name="keywords" content="3D Rendering Services,Exterior Renderings,Interior Renderings,3D Animations,BIM Solutions,3D Modeling Services,SolidWorks Rendering,Architectural Visualization,3D Visualization,High-Quality Renderings,Professional 3D Renders,3D Animation Production,BIM Modeling Solutions,3D Architectural Renderings,Realistic 3D Models,3D Rendering for Architects,3D Rendering for Real Estate,Advanced 3D Visualization,Virtual Reality Renders,Product Rendering Services,"></meta>
         <meta name="robots" content="index, follow"></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"></meta>
         <meta name="language" content="English"></meta>
       </head>
       <body className={inter.className}>{children}</body>
