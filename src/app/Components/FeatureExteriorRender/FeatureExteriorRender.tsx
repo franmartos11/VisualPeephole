@@ -10,7 +10,7 @@ export default function FeatureExteriorRender(){
     <div className=" p-[1rem] md:w-[35rem] md:h-[35rem] mx-auto overflow-hidden">
     <img 
         className="w-full h-full object-cover rounded-lg " 
-        src="/render7.jpeg" 
+        src="/render.webp" 
         alt="can_help_banner" 
     />
 </div>

@@ -16,7 +16,7 @@ import { ParallaxScrollDemo } from "./Components/ParalaxScroll/ParalaxScrollDemo
 export default function Home() {
   return (
     <main >
-      <NavbarDemo></NavbarDemo>
+      
       <TypewriterEffectSmoothDemoHome></TypewriterEffectSmoothDemoHome>
       <CommingSoon></CommingSoon>
 
@@ -28,7 +28,7 @@ export default function Home() {
       <SkeletonFour></SkeletonFour>
       <MoovingLogos></MoovingLogos>
       <Form></Form>
-      <Footer></Footer>
+      
     </main>
   );
 }

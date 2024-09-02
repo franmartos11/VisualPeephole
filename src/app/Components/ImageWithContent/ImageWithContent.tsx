@@ -1,19 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
+import { CompareDemo } from "../CompareComponent/Compare";
 export default function ImageWithContent() {
     return (
         <section>
             <div className="mx-auto  max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                        <Image
-                            alt="crecimiento"
-                            title="crecimiento"
-                            src="/render3.jpeg"
-                            className="h-[90%] rounded-lg w-full object-cover"
-                            width={1500}
-                            height={800}
-                        ></Image>
+                        <CompareDemo></CompareDemo>
                     </div>
                     <div className="lg:py-24">
                         <h2 className="text-4xl text-black font-bold ">

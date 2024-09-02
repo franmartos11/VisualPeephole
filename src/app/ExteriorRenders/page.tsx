@@ -9,14 +9,14 @@ import { TypewriterEffectSmoothDemo } from "../Components/Text/Textwritter";
 export default function ExteriorRenders() {
   return (
     <main >
-        <NavbarDemo></NavbarDemo>
+        
         <TypewriterEffectSmoothDemo></TypewriterEffectSmoothDemo>
         <FeatureExteriorRender></FeatureExteriorRender>
         <ImageWithContent></ImageWithContent>
         <ImageWithContent2></ImageWithContent2>
         
         <Form></Form>
-        <Footer></Footer>
+        
     </main>
   );
 }
