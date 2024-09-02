@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function () {
+export default function AboutUsTeam() {
     const [hovered, setHovered] = useState(false);
     const [hovered1, setHovered1] = useState(false);
     const [hovered2, setHovered2] = useState(false);
