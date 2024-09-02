@@ -24,9 +24,17 @@ export function TypewriterEffectSmoothDemoHome() {
         
     ];
     return (
-        <div className="flex flex-col items-center justify-center  bg-cover bg-center  h-screen " style={{ backgroundImage: "url('/RenderHome.jpeg') " }}>
-            <div className="flex flex-col items-center justify-center absolute inset-0 bg-black bg-opacity-10 backdrop-blur-[0.0rem]">
-                <TypewriterEffectSmooth words={words} /></div>
+        <div className="relative flex flex-col items-center justify-center bg-cover bg-center h-screen" style={{ backgroundImage: "url('/RenderHome.jpeg')" }}>
+            <div className="absolute inset-0 bg-black bg-opacity-10 backdrop-blur-none flex flex-col items-center justify-center">
+                <div className="hidden md:flex">
+                    {/* Mostrar TypewriterEffectSmooth solo en pantallas mayores a 768px */}
+                    <TypewriterEffectSmooth words={words} />
+                </div>
+                <h1 className="text-white text-center text-4xl md:hidden">
+                    
+                    Affordable 3D Rendering With Professional Excellence
+                </h1>
+            </div>
         </div>
     );
 }
