@@ -109,7 +109,7 @@ export default function ImgsExplication() {
                         {currentTestimonial.title}
                     </h3>
 
-                    <p className="px-[10rem] mt-6 text-gray-800">
+                    <p className="px-[15%] mt-6 text-gray-800">
                         {currentTestimonial.content}
                     </p>
                 </div>
