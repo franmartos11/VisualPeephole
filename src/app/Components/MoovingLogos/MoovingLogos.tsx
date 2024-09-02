@@ -1,9 +1,9 @@
 export default function MoovingLogos() {
     return (
-        <div className="pb-[10rem] ">
+        <div className="pb-[10rem] hidden lg:block ">
 
 
-            <div className=" flex overflow-hidden ">
+            <div className=" flex overflow-hidden  ">
                 <div className="animate-loop-scroll flex flex-row">
                     <a
                         title="link"
