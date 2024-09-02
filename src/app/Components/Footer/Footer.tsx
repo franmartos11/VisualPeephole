@@ -34,7 +34,7 @@ export default function Footer() {
     </div>
     
             <p className="py-10 text-center text-gray-600">
-                © 2024 Visualpeephole | Designed by Aspa Software
+                © 2024 Visualpeephole | Designed by <a href="https://www.aspasoftware.com/" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">Aspa Software</a>
             </p>
         </div>
     );

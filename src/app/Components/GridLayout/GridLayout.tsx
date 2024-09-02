@@ -1,11 +1,11 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { LayoutGrid } from "./Layout"; 
+import { LayoutGrid } from "./Layout";
 
 export function GridLayout() {
   return (
     <div className="h-screen py-20 w-full">
-    <h2 className=" pb-[1rem] text-4xl font-semibold text-black  text-center"> We provide 3D services for architectural and engineering projects.</h2>
+      <h2 className=" pb-[1rem] text-4xl font-semibold text-black  text-center"> We provide 3D services for architectural and engineering projects.</h2>
       <LayoutGrid cards={cards} />
     </div>
   );
@@ -15,12 +15,11 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House in the woods
+        Modern Residential Building
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
+        Modern multi-story residential building with numerous windows and balconies.
       </p>
     </div>
   );
@@ -30,13 +29,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House above the clouds
+        Modern Living Room
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a
-        unique living experience. It&apos;s a place where the sky meets home,
-        and tranquility is a way of life.
+        Modern living room with a high ceiling, exposed wooden beams, and large windows that allow ample natural light to enter.
       </p>
     </div>
   );
@@ -45,12 +42,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+        Cozy Modern Living Room
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Modern living room with a high ceiling, exposed wooden beams, and large windows that allow ample natural light to enter.
       </p>
     </div>
   );
@@ -59,12 +55,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+      Serene Outdoor Scene
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+      Outdoor scene with two modern, single-story houses surrounded by a lush landscape.
       </p>
     </div>
   );
