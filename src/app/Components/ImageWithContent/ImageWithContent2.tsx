@@ -6,14 +6,12 @@ export default function ImageWithContent2() {
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
-                        <Image
-                            alt="quienes somos"
-                            title="quienes somos"
-                            src="/renderout2.webp"
-                            className=" h-[100%] rounded-lg w-full object-cover"
-                            width={500}
-                            height={100}
-                        ></Image>
+                        
+                        <img
+                        className="w-full h-full object-cover rounded-lg "
+                        src="/renderOut2.webp"
+                        alt="can_help_banner"
+                    />
                     </div>
                     <div className="lg:py-24">
                         <h2 className="text-4xl text-black font-bold ">
