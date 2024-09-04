@@ -5,7 +5,7 @@ export default function Promo() {
 
                 <div className="w-full md:w-1/2 mb-8 md:mb-0">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">NEED A QUOTE?</h1>
-                    <p className="text-xl text-gray-600 mb-6">Your 3D renderings will look stunning. Our renderings meet all the requirements of your design, contributing to your project's success by impressing potential investors.</p>
+                    <p className="text-xl text-gray-600 mb-6">Your 3D renderings will look stunning. Our renderings meet all the requirements of your design, contributing to your projects success by impressing potential investors.</p>
                 </div>
 
                 <div className="w-full md:w-1/2">
