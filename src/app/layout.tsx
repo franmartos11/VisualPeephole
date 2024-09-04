@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en">
       <head>
         <Script
           id="gtm"
@@ -35,9 +35,14 @@ export default function RootLayout({
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"></meta>
         <meta name="language" content="English"></meta>
       </head>
-      <body className={inter.className}><NavbarDemo></NavbarDemo>
-        {children}<Footer></Footer>
-        </body>
-    </html>
+      <body className={inter.className}>
+        <div className="!scroll-smooth">
+          <NavbarDemo></NavbarDemo>
+          {children}
+          <Footer></Footer>
+        </div>
+      </body>
+
+    </html >
   );
 }
