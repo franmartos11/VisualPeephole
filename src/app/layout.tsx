@@ -14,8 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" title="Visual Peephole">
-      <title>At Visual Peephole, we specialize in transforming your concepts into stunning visual realities. Whether you're an architect, real estate developer, or designer, our expert team offers a comprehensive range of services to bring your projects to life with exceptional clarity and detail.</title>
+    <html lang="en" >
       <head>
         <Script
           id="gtm"

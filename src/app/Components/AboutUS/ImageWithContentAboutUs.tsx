@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ImageWithContentAboutUs() {
     return (
         <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-[8rem] lg:px-8">
+            <div className="mx-auto max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className=" h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
                         <Image
@@ -16,39 +16,17 @@ export default function ImageWithContentAboutUs() {
                         ></Image>
                     </div>
                     <div className="lg:py-24">
-                        <h2 className="text-4xl uppercase  font-bold">  
+                        <h2 className="text-4xl uppercase  font-bold">
                             Our Story
                         </h2>
 
                         <p className="mt-4 text-base text-gray-700">
-                            En Aspa, somos un equipo apasionado y diverso de
-                            profesionales comprometidos con la excelencia y la
-                            innovación. Fundada por dos programadores con una
-                            visión compartida y un especialista en marketing,
-                            diseño y ventas, nuestra empresa representa la
-                            perfecta fusión entre la creatividad, la tecnología
-                            y la estrategia empresarial. Nos enorgullece nuestra
-                            capacidad para combinar habilidades técnicas sólidas
-                            con una mentalidad comercial aguda, lo que nos
-                            permite ofrecer soluciones integrales que no solo
-                            son técnicamente sólidas, sino también
-                            comercialmente viables y estratégicamente alineadas
-                            con los objetivos de nuestros clientes.
+                            Welcome to Visual Peephole LLC, a premier 3D visualization studio based in Miami, FL. We specialize in turning your concepts and ideas into stunning, photorealistic visual representations. Our team of experienced professionals is dedicated to providing high-quality services that cater to a wide range of needs in the architecture, real estate, and design industries.
                             <br />
                             <br />
-                            En el núcleo de nuestra empresa está el compromiso
-                            con la colaboración, la transparencia y la mejora
-                            continua. Creemos en el poder del trabajo en equipo
-                            y en la diversidad de perspectivas para impulsar la
-                            innovación y la excelencia. Cada miembro de nuestro
-                            equipo aporta habilidades únicas y experiencia
-                            invaluable, lo que nos permite abordar los desafíos
-                            más complejos con creatividad y determinación. En
-                            Aspa, nos esforzamos por crear un ambiente de
-                            trabajo inclusivo y estimulante, donde cada
-                            individuo se sienta valorado y capacitado para
-                            contribuir al éxito colectivo de la empresa y de
-                            nuestros clientes.
+                            Our commitment to excellence and innovation drives us to deliver exceptional results that exceed our clients expectations. Whether you are looking to impress potential investors, showcase your design concepts, or enhance project presentations, Visual Peephole is here to help you achieve your goals with unparalleled expertise and creativity.
+
+                            Let us transform your ideas into visual masterpieces and bring your vision to life with our cutting-edge 3D visualization services.
                         </p>
                         <div className="mt-12 mb-10 text-center">
                             <Link
