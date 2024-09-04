@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function ImageWithContentAboutUs() {
     return (
         <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-[8rem] lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
+                    <div className=" h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
                         <Image
                             alt="quienes somos"
                             title="quienes somos"
-                            src="/visualPeepholeLargeLogo.PNG"
-                            className=" h-[90%] rounded-lg w-full object-fill"
+                            src="/vp.png"
+                            className=" h-[80%] rounded-lg w-full object-cover "
                             width={500}
                             height={100}
                         ></Image>

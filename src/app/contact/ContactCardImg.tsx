@@ -169,17 +169,17 @@ export default function ContactCardImg() {
                             <div className="flex mt-4 -mx-1.5 space-x-5 ">
                             <a href="https://www.youtube.com/@visualpeephole" target="_blank" aria-label="See more about us in YouTube " rel="noopener noreferrer">
         
-        <img alt="Youtube Logo" src="https://img.icons8.com/fluent/30/000000/youtube.png" />
+        <img alt="Youtube Logo" src="/icons8-youtube.svg" className="h-[2rem]" />
     </a>
     <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" aria-label="See more about us in Linkdin " rel="noopener noreferrer">
-        <img alt="Linkdin Logo" src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+        <img alt="Linkdin Logo" src="/icons8-linkedinG.svg" className="h-[2rem]" />
     </a>
     <a href="https://www.instagram.com/visual.peephole/" target="_blank" aria-label="See more about us in Instagram " rel="noopener noreferrer">
-        <img alt="Instagram Logo" src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+        <img alt="Instagram Logo" src="/icons8-instagramG.svg" className="h-[2rem]" />
     </a>
     
     <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">
-        <img alt="Pinterest Logo" src="https://img.icons8.com/fluent/30/000000/pinterest.png" />
+        <img alt="Pinterest Logo" src="/icons8-pinterest.svg" className="h-[2rem]" />
     </a>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ export default function ImageWithContent2() {
                         
                         <img
                         className="w-full h-full object-cover rounded-lg "
-                        src="/renderOut2.webp"
+                        src="/12.jpg"
                         alt="can_help_banner"
                     />
                     </div>
