@@ -9,7 +9,7 @@ export default function ImgsExplication() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/render.webp",
+            image: "/renderOut2.webp",
         },
         {
             id: 2,
@@ -17,7 +17,7 @@ export default function ImgsExplication() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/renderOut2.webp",
+            image: "/render.webp",
         },
         {
             id: 3,
@@ -25,8 +25,33 @@ export default function ImgsExplication() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/renderOut.webp",
+            image: "/1.jpg",
         },
+        {
+            id: 4,
+            title: "Name of Proyect",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/2.jpg",
+        },
+        {
+            id: 5,
+            title: "Name of Proyect",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/4.jpg",
+        },
+        {
+            id: 6,
+            title: "Name of Proyect",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/12.jpg",
+        },
+        
     ];
 
     const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);

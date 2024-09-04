@@ -24,7 +24,7 @@ export default function ImageWithContent2() {
                             <Link
                                 title="link"
                                 href="/contact"
-                                className="inline-block rounded bg-gray-500 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-400"
+                                className="inline-block rounded bg-gray-500 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400"
                             >
                                 Contact Us
                             </Link>

@@ -2,7 +2,9 @@
 import ImageWithContent2AboutUs from "../Components/AboutUS/ImageWithContent2AboutUs";
 import ImageWithContentAboutUs from "../Components/AboutUS/ImageWithContentAboutUs";
 import AboutUsTeam from "../Components/AboutUsTeam/AboutUsTeam";
+import Form from "../Components/Forms/Form";
 import MoovingLogos from "../Components/MoovingLogos/MoovingLogos";
+import { WobbleCardDemo } from "../Components/WobbleCard/WoobleCardDemo";
 
 
 export default function about(){
@@ -11,7 +13,8 @@ export default function about(){
         <ImageWithContentAboutUs></ImageWithContentAboutUs>
         <ImageWithContent2AboutUs></ImageWithContent2AboutUs>
         <AboutUsTeam></AboutUsTeam>
-        <div className="mb-[8rem] text-center">
+        <WobbleCardDemo></WobbleCardDemo>
+        <div className="mb-[8rem] pt-[9rem] text-center">
                 <h2 className="text-blue-600 text-center font-medium mb-4 block">
                     Our Clients
                 </h2>
@@ -19,7 +22,9 @@ export default function about(){
                     Those who trust us
                 </h3>
             </div>
+            
         <MoovingLogos></MoovingLogos>
+        <Form></Form>
         </>
     )
 }

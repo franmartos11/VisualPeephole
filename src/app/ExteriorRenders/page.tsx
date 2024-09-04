@@ -13,8 +13,6 @@ export default function ExteriorRenders() {
         <FeatureExteriorRender></FeatureExteriorRender>
         <ImageWithContent></ImageWithContent>
         <ImageWithContent2></ImageWithContent2>
-
-        
         <Form></Form>
         
     </main>

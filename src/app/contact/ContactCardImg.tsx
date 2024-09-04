@@ -26,7 +26,7 @@ export default function ContactCardImg() {
                                     <input
                                         type="Nombre"
                                         placeholder=""
-                                        className="block w-full px-5 py-3 mt-2 border  rounded-md placeholder-gray-600 bg-gray-300 text-gray-300 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2 border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
 
@@ -37,7 +37,7 @@ export default function ContactCardImg() {
                                     <input
                                         type="email"
                                         placeholder=""
-                                        className="block w-full px-5 py-3 mt-2   border  rounded-md placeholder-gray-600 bg-gray-300 text-gray-300 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2   border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
                                 <div className="flex-1 px-2 mt-4 md:mt-0">
@@ -47,7 +47,7 @@ export default function ContactCardImg() {
                                     <input
                                         type="telefono"
                                         placeholder=""
-                                        className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-300 text-gray-300 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
                             </div>
@@ -58,12 +58,12 @@ export default function ContactCardImg() {
                                 </label>
                                 <input
                                     type="telefono"
-                                    className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-300 text-gray-300 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder=""
                                 ></input>
                             </div>
 
-                            <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform rounded-md bg-gray-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform rounded-md bg-gray-400 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-900 focus:ring-opacity-50">
                                 Send
                             </button>
                         </form>
