@@ -64,7 +64,6 @@ export default function ContactCardImg() {
                                 </label>
                                 <input
                                     type="text"
-
                                     id="subject"
                                     name="subject"
                                     placeholder=""
@@ -78,7 +77,6 @@ export default function ContactCardImg() {
                                 </label>
                                 <input
                                     type="text"
-
                                     id="message"
                                     name="mensaje"
                                     className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
