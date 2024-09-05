@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Timeline } from "./Timeline"; 
+import { Timeline } from "./Timeline";
 export function TimelineDemo() {
   const data = [
     {
@@ -8,10 +8,9 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className=" text-xs md:text-lg  mb-8">
-            During the initial consultation, the client discusses their project requirements with the team. This stage involves understanding the client vision, objectives, and specific needs for the concepts. The team gathers detailed information, including any preferences for style, format, and deadlines. 
-          </p>
+            We begin by discussing your project requirements to understand your vision, objectives, and specific needs. This includes gathering detailed information on style preferences, format, and deadlines.</p>
           <div  >
-            
+
             <Image
               src="/peopleWorking3.jpg"
               alt="People Working"
@@ -19,8 +18,8 @@ export function TimelineDemo() {
               height={1000}
               className="rounded-lg object-cover h-40 md:h-80 lg:h-[25rem] w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            
-            
+
+
           </div>
         </div>
       ),
@@ -30,21 +29,18 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-xs md:text-lg  mb-8">
-          In the concept development stage, the team creates preliminary sketches or digital mockups based on the information gathered during the consultation. <strong>The client is given up to three rounds of revisions</strong>  to refine and adjust the mockups. This iterative process allows the client to provide feedback and make adjustments before finalizing the concepts. 
-          The goal is to ensure that the mockup aligns closely with the client s 
-          vision before moving on to production.
+            Our team creates preliminary sketches or digital mockups based on the initial consultation. <strong> You can request up to three rounds of revisions</strong> to ensure the mockups align with your vision before moving to production.
           </p>
-          
-          <div className="grid grid-cols-2 gap-4">
+
+          <div>
+
             <Image
-              src="/B.jpg"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              src="/View01_override.jpg"
+              alt="People Working"
+              width={1000}
+              height={1000}
+              className="rounded-lg object-cover h-40 md:h-80 lg:h-[25rem] w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            
-            
           </div>
         </div>
       ),
@@ -54,62 +50,46 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-xs md:text-lg  mb-8">
-          Once the concepts are approved and any revisions are finalized, the concept production phase begins. 
-          The team creates high-quality, detailed concepts based on the approved mockups. 
-          This process uses advanced software and techniques to deliver visuals that meet the client s specifications.
-           Regular updates are provided to the client to ensure that the project stays on track and aligns with their expectations.
+            Once the concepts are approved, we produce high-quality, detailed visuals using advanced software and techniques. We provide regular updates to keep the project on track and aligned with your expectations.
           </p>
-          
-          <div className="grid grid-cols-2 gap-4">
-          <Image
-              src="/renderOut.webp"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+
+          <div >
+
             <Image
-              src="/renderOutcopy.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              src="/View01.jpg"
+              alt="People Working"
+              width={1000}
+              height={1000}
+              className="rounded-lg object-cover h-40 md:h-80 lg:h-[25rem] w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <Image
-              src="/renderOutcopy2.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            
+
+
           </div>
         </div>
       ),
     },
     {
-        title: "Final Review and Delivery",
-        content: (
+      title: "Final Review and Delivery",
+      content: (
+        <div>
+          <p className="text-xs md:text-lg mb-8">
+            The completed concepts are presented for final approval. We review the project to confirm all objectives are met and discuss potential future collaborations.</p>
+
           <div>
-            <p className="text-xs md:text-lg mb-8">
-            In the final review and delivery stage, the completed concepts are presented to the client for final approval. This stage concludes with a review of the project to confirm all objectives have been met and to discuss potential future collaborations.
-            </p>
-            
-            <div>
-              
-              
-              <Image
+
+
+            <Image
               src="/handshake.jpg"
               alt="People Working"
               width={1000}
               height={1000}
               className="rounded-lg object-cover h-40 md:h-80 lg:h-[25rem] w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-              
-            </div>
+
           </div>
-        ),
-      },
+        </div>
+      ),
+    },
   ];
   return (
     <div className="w-full">

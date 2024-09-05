@@ -105,7 +105,7 @@ export default function ContactCardImg() {
                                         title="link"
                                         href="https://www.google.com/maps/place/744+Jefferson+Ave,+Miami+Beach,+FL+33139,+EE.+UU./@25.7778414,-80.1401509,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b48b5eb638bb:0x2320cda3a9e4490!8m2!3d25.7778414!4d-80.1375706!16s%2Fg%2F11c10j64my?hl=es&entry=ttu"
                                     >
-                                        Miami, Fl
+                                        Miami, FL
                                     </a>
                                 </span>
                             </p>
@@ -167,20 +167,23 @@ export default function ContactCardImg() {
                             <h3 className="text-gray-900 ">Follow Us</h3>
 
                             <div className="flex mt-4 -mx-1.5 space-x-5 ">
-                            <a href="https://www.youtube.com/@visualpeephole" target="_blank" aria-label="See more about us in YouTube " rel="noopener noreferrer">
-        
-        <img alt="Youtube Logo" src="/icons8-youtube.svg" className="h-[2rem]" />
-    </a>
-    <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" aria-label="See more about us in Linkdin " rel="noopener noreferrer">
-        <img alt="Linkdin Logo" src="/icons8-linkedinG.svg" className="h-[2rem]" />
-    </a>
-    <a href="https://www.instagram.com/visual.peephole/" target="_blank" aria-label="See more about us in Instagram " rel="noopener noreferrer">
-        <img alt="Instagram Logo" src="/icons8-instagramG.svg" className="h-[2rem]" />
-    </a>
-    
-    <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">
-        <img alt="Pinterest Logo" src="/icons8-pinterest.svg" className="h-[2rem]" />
-    </a>
+                                <a href="https://www.youtube.com/@visualpeephole" target="_blank" aria-label="See more about us in YouTube " rel="noopener noreferrer">
+
+                                    <img alt="Youtube Logo" src="/icons8-youtube.svg" className="h-[2rem]" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/visual-peephole/?originalSubdomain=ar" target="_blank" aria-label="See more about us in Linkdin " rel="noopener noreferrer">
+                                    <img alt="Linkdin Logo" src="/icons8-linkedinG.svg" className="h-[2rem]" />
+                                </a>
+                                <a href="https://www.instagram.com/visual.peephole/" target="_blank" aria-label="See more about us in Instagram " rel="noopener noreferrer">
+                                    <img alt="Instagram Logo" src="/icons8-instagramG.svg" className="h-[2rem]" />
+                                </a>
+
+                                <a href="https://ar.pinterest.com/visualpeephole/" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">
+                                    <img alt="Pinterest Logo" src="/icons8-pinterest.svg" className="h-[2rem]" />
+                                </a>
+                                <a href="https://www.houzz.es/hznb/profesionales/arquitectos/visual-peephole-pfvwes-pf~507947324?" target="_blank" aria-label="See more about us in Pinterest " rel="noopener noreferrer">
+                                    <img alt="Pinterest Logo" src="/houzz.svg" className="h-[2rem]" />
+                                </a>
                             </div>
                         </div>
                     </div>
