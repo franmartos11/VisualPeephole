@@ -41,8 +41,8 @@ export const Globe = ({ className }: { className?: string }) => {
       markerColor: [0.1, 0.8, 1],
       glowColor: [1, 1, 1],
       markers: [
-        { location: [37.7595, -122.4367], size: 0.03 },
-        { location: [40.7128, -74.006], size: 0.1 },
+        
+        { location: [30.7128, -79.006], size: 0.1 },
       ],
       onRender: (state: GlobeState) => {
         // Called on every animation frame.
