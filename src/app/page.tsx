@@ -16,9 +16,7 @@ import { ParallaxScrollDemo } from "./Components/ParalaxScroll/ParalaxScrollDemo
 export default function Home() {
   return (
     <main >
-      
       <TypewriterEffectSmoothDemoHome></TypewriterEffectSmoothDemoHome>
-      
       <GridLayout></GridLayout>
       <CardHoverEffectDemo></CardHoverEffectDemo>
       <WobbleCardDemo></WobbleCardDemo>
@@ -26,7 +24,6 @@ export default function Home() {
       <SkeletonFour></SkeletonFour>
       <MoovingLogos></MoovingLogos>
       <Form></Form>
-      
     </main>
   );
 }

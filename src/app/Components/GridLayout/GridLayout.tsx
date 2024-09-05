@@ -85,7 +85,7 @@ const cards = [
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "/render4grid2.jpeg",
+      "/1i.jpg",
   },
   {
     id: 4,
