@@ -24,7 +24,7 @@ export default function ContactCardImg() {
                                         Full Name
                                     </label>
                                     <input
-                                        type="Nombre"
+                                        type="name"
                                         placeholder=""
                                         className="block w-full px-5 py-3 mt-2 border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
@@ -45,7 +45,7 @@ export default function ContactCardImg() {
                                         Phone Number
                                     </label>
                                     <input
-                                        type="telefono"
+                                        type="phone"
                                         placeholder=""
                                         className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
@@ -54,10 +54,21 @@ export default function ContactCardImg() {
 
                             <div className="w-full mt-4">
                                 <label className="block mb-2 text-sm text-gray-900">
+                                    Subject
+                                </label>
+                                <input
+                                        type="subject"
+                                        placeholder=""
+                                        className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    />
+                            </div>
+
+                            <div className="w-full mt-4">
+                                <label className="block mb-2 text-sm text-gray-900">
                                     Message
                                 </label>
                                 <input
-                                    type="telefono"
+                                    type="message"
                                     className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder=""
                                 ></input>

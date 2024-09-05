@@ -13,30 +13,51 @@ export default function Form() {
                     method="POST"
                     className="space-y-8"
                 >
+                    <div className="-mx-2 md:items-center md:flex">
+                                <div className="flex-1 px-2">
+                                    <label className="block mb-2 text-sm text-gray-900">
+                                        Full Name
+                                    </label>
+                                    <input
+                                        type="name"
+                                        className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
+                                        placeholder="Joseph Martines"
+                                        required />
+                                        
+                                </div>
+
+                                <div className="flex-1 px-2 mt-4 md:mt-0">
+                                    <label className="block mb-2 text-sm text-gray-900">
+                                        Email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
+                            placeholder="name@gmail.com"/>
+                                </div>
+                                <div className="flex-1 px-2 mt-4 md:mt-0">
+                                    <label className="block mb-2 text-sm text-gray-900">
+                                        Phone Number
+                                    </label>
+                                    <input
+                                        type="phone"
+                                        className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
+                                        placeholder="+1 80676872"/>
+                                </div>
+                            </div>
+                    
+                    
                     <div>
                         <label className="block mb-2 text-sm font-medium text-gray-700">
-                            Email
-                        </label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-                            placeholder="name@gmail.com"
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label className="block mb-2 text-sm font-medium text-gray-700">
-                            Phone Number
+                            Subject
                         </label>
                         <input
                             type="telefono"
                             id="telefono"
                             name="telefono"
                             className="block p-3 w-full text-sm rounded-lg border  shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-                            placeholder="Phone Number..."
-                            required
+                            placeholder="Subject..."
+                            
                         />
                     </div>
 
@@ -50,6 +71,7 @@ export default function Form() {
                             name="mensaje"
                             className="block p-6 w-full text-sm  rounded-lg shadow-sm border  focus:ring-primary-500 focus:border-primary-500 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Leave your message..."
+                            required
                         ></input>
                     </div>
                     <div className=" text-center ">
