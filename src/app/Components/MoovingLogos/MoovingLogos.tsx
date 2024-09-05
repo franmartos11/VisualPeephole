@@ -96,6 +96,32 @@ export default function MoovingLogos() {
                             className=" h-[5rem]"
                         />
                     </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://www.michaelkeeganrealty.com"
+                        className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/mklogo.png"
+                            title="logo"
+                            alt="logo"
+                            className=" h-[5rem]"
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://designdraftingservices.us"
+                        className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/ddslogo.png"
+                            title="logo"
+                            alt="logo"
+                            className=" h-[5rem]"
+                        />
+                    </a>
 
                 </div>
                 <div className="animate-loop-scroll flex flex-row">
@@ -190,7 +216,32 @@ export default function MoovingLogos() {
                             className=" h-[5rem]"
                         />
                     </a>
-
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://www.michaelkeeganrealty.com"
+                        className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/mklogo.png"
+                            title="logo"
+                            alt="logo"
+                            className=" h-[5rem]"
+                        />
+                    </a>
+                    <a
+                        title="link"
+                        target="_blank"
+                        href="https://designdraftingservices.us"
+                        className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
+                    >
+                        <img
+                            src="/ddslogo.png"
+                            title="logo"
+                            alt="logo"
+                            className=" h-[5rem]"
+                        />
+                    </a>
                 </div>
 
             </div>
