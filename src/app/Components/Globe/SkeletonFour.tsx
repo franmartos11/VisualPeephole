@@ -6,7 +6,7 @@ export const SkeletonFour = () => {
   return (
     <div className="h-auto  flex flex-col items-center mt-10  z-10">
       <h3 className=" pb-10 pt-14 text-4xl font-semibold  text-center">
-        Dazed in Miami FL, working worldwide
+        Located in Miami FL, working worldwide
       </h3>
       <Globe className=" w-full" />
     </div>
