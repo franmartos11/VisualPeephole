@@ -9,7 +9,7 @@ export default function Form() {
                 We are here to help! Fill out the form below, and we ll be happy to answer your questions, discuss potential collaborations, or explore your ideas.
                 </p>
                 <form
-                    action="https://formsubmit.co/"
+                    action="https://formsubmit.co/visualpeephole@gmail.com"
                     method="POST"
                     className="space-y-8"
                 >
