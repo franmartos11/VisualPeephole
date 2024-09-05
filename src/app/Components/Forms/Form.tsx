@@ -77,7 +77,7 @@ export default function Form() {
                     <div className=" text-center ">
                         <button
                             type="submit"
-                            className="py-3 px-9 text-sm font-medium text-center  text-black rounded-lg bg-gray-400 sm:w-fit hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-primary-300 "
+                            className="py-3 px-9 text-sm font-medium text-center  text-white rounded-lg bg-gray-400 sm:w-fit hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-primary-300 "
                         >
                             Send
                         </button>
