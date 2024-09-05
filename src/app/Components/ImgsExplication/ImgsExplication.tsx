@@ -77,7 +77,7 @@ export default function ImgsExplication() {
                     Some of our latest exterior renders.
                 </h2>
             </div>
-            <div className="p-4 lg:ml-8 lg:mt-0 flex-col justify-center align-middle text-center">
+            <div className="p-4  lg:mt-0 flex-col justify-center align-middle text-center">
                     <h3 className="text-2xl font-semibold">
                         {currentTestimonial.title}
                     </h3>

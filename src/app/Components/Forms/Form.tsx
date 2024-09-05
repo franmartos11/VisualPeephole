@@ -19,7 +19,7 @@ export default function Form() {
                                         Full Name
                                     </label>
                                     <input
-                                        type="name"
+                                        type="text"
                                         className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
                                         placeholder="Joseph Martines"
                                         required />
@@ -40,7 +40,7 @@ export default function Form() {
                                         Phone Number
                                     </label>
                                     <input
-                                        type="phone"
+                                        type="text"
                                         className="shadow-sm  border   text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
                                         placeholder="+1 80676872"/>
                                 </div>
@@ -52,9 +52,9 @@ export default function Form() {
                             Subject
                         </label>
                         <input
-                            type="telefono"
-                            id="telefono"
-                            name="telefono"
+                            type="text"
+                            id="subject"
+                            name="Subject"
                             className="block p-3 w-full text-sm rounded-lg border  shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-400 border-gray-600 placeholder-white text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
                             placeholder="Subject..."
                             

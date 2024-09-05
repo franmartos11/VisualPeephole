@@ -24,7 +24,9 @@ export default function ContactCardImg() {
                                         Full Name
                                     </label>
                                     <input
-                                        type="name"
+                                        type="text"
+                                        id="name"
+                                        name="name"
                                         placeholder=""
                                         className="block w-full px-5 py-3 mt-2 border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
@@ -36,6 +38,8 @@ export default function ContactCardImg() {
                                     </label>
                                     <input
                                         type="email"
+                                        id="email"
+                                        name="email"
                                         placeholder=""
                                         className="block w-full px-5 py-3 mt-2   border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
@@ -45,7 +49,9 @@ export default function ContactCardImg() {
                                         Phone Number
                                     </label>
                                     <input
-                                        type="phone"
+                                        type="text"
+                                        id="pn"
+                                        name="pn"
                                         placeholder=""
                                         className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
@@ -57,10 +63,13 @@ export default function ContactCardImg() {
                                     Subject
                                 </label>
                                 <input
-                                        type="subject"
-                                        placeholder=""
-                                        className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                                    />
+                                    type="text"
+
+                                    id="subject"
+                                    name="subject"
+                                    placeholder=""
+                                    className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                />
                             </div>
 
                             <div className="w-full mt-4">
@@ -68,7 +77,10 @@ export default function ContactCardImg() {
                                     Message
                                 </label>
                                 <input
-                                    type="message"
+                                    type="text"
+
+                                    id="message"
+                                    name="mensaje"
                                     className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-400 text-gray-800 border-white focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder=""
                                 ></input>
