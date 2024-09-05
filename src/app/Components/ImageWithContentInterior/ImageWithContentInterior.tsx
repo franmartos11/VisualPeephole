@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import { CompareDemo } from "../CompareComponent/Compare";
 export default function ImageWithContentInterior() {
     return (
         <section>
