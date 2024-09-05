@@ -15,7 +15,7 @@ export default function ContactCardImg() {
 
                         <form
                             className="mt-12"
-                            action="https://formsubmit.co/74c5c743d951c678ce020a82cc431fa4"
+                            action="https://formsubmit.co/298aa790e26e9bf9a4dee6437211f8e1"
                             method="POST"
                         >
                             <div className="-mx-2 md:items-center md:flex">
