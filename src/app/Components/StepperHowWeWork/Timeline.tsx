@@ -38,13 +38,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto text-center pt-0 pb-0 px-4 md:px-8 lg:px-10">
-        <h2 className=" pt-[10rem]  text-4xl font-semibold  text-center">
+        <h2 className=" pt-[7rem]  text-4xl font-semibold  text-center">
         Our Project Lifecycle
         </h2>
-        <p className=" pt-[1rem] text-center text-sm md:text-base ">
-          We&apos;ve been working for the past x years. Here&apos;s
-          how we do it.
-        </p>
+        
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

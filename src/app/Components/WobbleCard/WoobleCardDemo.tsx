@@ -6,7 +6,7 @@ import { WobbleCard } from "./Wooble";
 export function WobbleCardDemo() {
   return (
     <div className="p-[1rem]">
-      <h3 className=" pt-[10rem]  text-4xl font-semibold  text-center">
+      <h3 className=" pt-[2rem]  text-4xl font-semibold  text-center">
          What Sets Us Apart
       </h3>
     

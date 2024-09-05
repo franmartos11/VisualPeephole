@@ -31,8 +31,7 @@ export function TypewriterEffectSmoothDemoHome() {
                     <TypewriterEffectSmooth words={words} />
                 </div>
                 <h1 className="text-white text-center text-4xl md:hidden">
-                    
-                    Affordable 3D Rendering With Professional Excellence
+                    Visualpeephole, affordable 3D Rendering With Professional Excellence
                 </h1>
             </div>
         </div>

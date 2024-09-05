@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
+    <html lang="en" className="baskervville-sc-regular" >
       <head>
         <Script
           id="gtm"
@@ -26,6 +26,7 @@ export default function RootLayout({
                     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                     })(window,document,'script','dataLayer','GTM-KZFPM2ML'); ` }}
         />
+        
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="title" content="Visual Peephole"></meta>
         <meta name="description" content="At Visual Peephole, we specialize in transforming your concepts into stunning visual realities. Whether you're an architect, real estate developer, or designer, our expert team offers a comprehensive range of services to bring your projects to life with exceptional clarity and detail."></meta>

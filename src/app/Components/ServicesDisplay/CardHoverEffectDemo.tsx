@@ -3,7 +3,7 @@ import { HoverEffect } from "./CardHover";
 
 export function CardHoverEffectDemo() {
     return (
-        <div className="max-w-[80rem] mx-auto px-8 pt-[10rem]">
+        <div className="max-w-[80rem] mx-auto px-8 pt-[4rem]">
             <h3 className=" pb-0 text-4xl font-semibold   text-center">Our Services</h3>
             <HoverEffect items={projects} />
         </div>
@@ -11,15 +11,15 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        title: "EXTERIOR RENDERS",
+        title: "EXTERIOR RENDERINGS",
         description:
-            "Elevate your project's curb appeal with high-quality exterior renders that showcase realistic and visually striking architectural designs.",
+            "Elevate your project's curb appeal with high-quality exterior renderings that showcase realistic and visually striking architectural designs.",
         link: "/ExteriorRenders",
     },
     {
-        title: "INTERIOR RENDERS",
+        title: "INTERIOR RENDERINGS",
         description:
-            "Transform your interior concepts into vivid, lifelike visuals with our detailed interior renders, perfect for design presentations and client approvals.",
+            "Transform your interior concepts into vivid, lifelike visuals with our detailed interior renderings, perfect for design presentations and client approvals.",
         link: "/InteriorRenders",
     },
     {

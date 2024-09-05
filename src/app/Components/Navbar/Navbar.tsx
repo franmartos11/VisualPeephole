@@ -21,8 +21,8 @@ function Navbar({ className }: { className?: string }) {
                 <HoveredLink href="/">About</HoveredLink>
                 <MenuItem setActive={setActive} active={active} item="Services">
                     <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/ExteriorRenders">Exterior Renders</HoveredLink>
-                        <HoveredLink href="/">Interior Renders</HoveredLink>
+                        <HoveredLink href="/ExteriorRenders">Exterior Renderings</HoveredLink>
+                        <HoveredLink href="/InteriorRenders">Interior Renderings</HoveredLink>
                         <HoveredLink href="/">Animations</HoveredLink>
                         <HoveredLink href="/">BIM Solutions</HoveredLink>
                         <HoveredLink href="/">Modeling</HoveredLink>

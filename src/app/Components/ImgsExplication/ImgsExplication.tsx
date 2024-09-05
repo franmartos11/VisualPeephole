@@ -5,7 +5,7 @@ export default function ImgsExplication() {
     const testimonialsData = [
         {
             id: 1,
-            title: "Name of Proyect",
+            title: "Modern Commercial Complex Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -13,7 +13,7 @@ export default function ImgsExplication() {
         },
         {
             id: 2,
-            title: "Name of Proyect",
+            title: "Modern Residential Building Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -21,7 +21,7 @@ export default function ImgsExplication() {
         },
         {
             id: 3,
-            title: "Name of Proyect",
+            title: "Commercial Storefronts Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -29,7 +29,7 @@ export default function ImgsExplication() {
         },
         {
             id: 4,
-            title: "Name of Proyect",
+            title: "Street View Storefronts Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -37,7 +37,7 @@ export default function ImgsExplication() {
         },
         {
             id: 5,
-            title: "Name of Proyect",
+            title: "Twilight Street Scene Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -45,7 +45,7 @@ export default function ImgsExplication() {
         },
         {
             id: 6,
-            title: "Name of Proyect",
+            title: "Commercial Building with Storefronts Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
@@ -77,7 +77,11 @@ export default function ImgsExplication() {
                     Some of our latest exterior renders.
                 </h2>
             </div>
-
+            <div className="p-4 lg:ml-8 lg:mt-0 flex-col justify-center align-middle text-center">
+                    <h3 className="text-2xl font-semibold">
+                        {currentTestimonial.title}
+                    </h3>
+                </div>
             <div className="relative flex flex-col items-center w-full px-6 mx-auto">
                 <img
                     className="object-cover object-center w-full lg:w-[80%] rounded-lg h-[38rem]"
@@ -129,15 +133,7 @@ export default function ImgsExplication() {
                     </button>
                 </div>
 
-                <div className="p-4 lg:ml-8 lg:mt-0 flex-col justify-center align-middle text-center">
-                    <h3 className="text-2xl font-semibold">
-                        {currentTestimonial.title}
-                    </h3>
-
-                    <p className="px-[15%] mt-6 text-gray-800">
-                        {currentTestimonial.content}
-                    </p>
-                </div>
+                
             </div>
         </section>
     );
