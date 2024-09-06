@@ -1,6 +1,6 @@
 export default function Promo() {
     return (
-        <section className="container mx-auto px-[10rem] py-12 md:py-24">
+        <section className="container mx-auto px-[1rem] lg:px-[10rem] md:px-[2rem] py-12 md:py-24">
             <div className="flex flex-col md:flex-row items-center justify-between">
 
                 <div className="w-full md:w-1/2 mb-8 md:mb-0">
