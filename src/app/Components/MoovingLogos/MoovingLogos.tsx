@@ -38,7 +38,7 @@ export default function MoovingLogos() {
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
                         <img
-                            src="/techno_global_inc__logo.webp"
+                            src="/techno_global_inc__logo.jpg"
                             alt="logo"
                             title="logo"
                             className=" h-[5rem] "
@@ -158,7 +158,7 @@ export default function MoovingLogos() {
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
                         <img
-                            src="/techno_global_inc__logo.webp"
+                            src="/techno_global_inc__logo.jpg"
                             alt="logo"
                             title="logo"
                             className=" h-[5rem] "
