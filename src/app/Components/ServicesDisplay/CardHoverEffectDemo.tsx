@@ -13,37 +13,37 @@ export const projects = [
     {
         title: "EXTERIOR RENDERINGS",
         description:
-            "Elevate your project's curb appeal with high-quality exterior renderings that showcase realistic and visually striking architectural designs.",
+            "Elevate your curb appeal with high-quality, photorealistic exterior renders that capture every detail of your architectural designs.",
         link: "/ExteriorRenders",
     },
     {
         title: "INTERIOR RENDERINGS",
         description:
-            "Transform your interior concepts into vivid, lifelike visuals with our detailed interior renderings, perfect for design presentations and client approvals.",
+            "Turn your interior concepts into vivid, lifelike images. Our detailed renders ensure that your designs resonate with clients and stakeholders.",
         link: "/InteriorRenders",
     },
     {
         title: "ANIMATIONS",
         description:
-            "Engage your audience with captivating 3D animations that bring your architectural visions to life through dynamic, interactive visuals.",
+            "Engage your audience with immersive 3D animations that bring your architectural ideas to life, offering a dynamic visual experience.",
         link: "/Animations",
     },
     {
         title: "MODELING",
         description:
-            "From conceptual designs to detailed models, our 3D modeling services provide accurate and realistic representations for any project.",
+            "From concept to completion, our 3D modeling services provide accurate, realistic representations, ensuring flawless execution of your projects.",
         link: "/Modeling",
     },
     {
         title: "BIM SOLUTIONS",
         description:
-            "Optimize your project management with our comprehensive BIM solutions, providing integrated and efficient workflows for building design and construction.",
+            "Optimize project efficiency with our BIM solutions, delivering integrated workflows for seamless design and construction management.",
         link: "/BimSolutions",
     },
     {
         title: "SOLIDWORKS",
         description:
-            "Utilize our SolidWorks expertise to develop detailed and precise engineering models, enhancing your design workflow and project outcomes.",
+            "Utilize our precision-driven SolidWorks expertise to create detailed engineering models that elevate your design process and project outcomes.",
         link: "/SolidWorks",
     },
    

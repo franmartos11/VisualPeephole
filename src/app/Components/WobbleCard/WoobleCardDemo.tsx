@@ -20,7 +20,7 @@ export function WobbleCardDemo() {
           Affordable Prices
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-          With our cost-effective solutions, you don t need an in-house 3D visualization department. We offer high-quality services at a fraction of the cost.
+          Get top-tier 3D visualizations without the hefty price tag. We offer premium quality at a fraction of the cost, no need for an in house team.
           </p>
         </div>
         <Image
@@ -36,17 +36,17 @@ export function WobbleCardDemo() {
         Quick Turnarounds
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-        Our streamlined processes ensure fast delivery without compromising on quality, so you get your projects completed on time.
+        Deadlines dont wait. Our streamlined processes ensure rapid delivery without sacrificing quality, keeping your projects on track.
         
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-[#000] min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-3xl font-semibold tracking-[-0.015em] text-white">
-          High Definition Services
+          High Definition Results
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          We provide top-notch 3D visualization services with high-definition results, making sure your projects stand out with stunning clarity.
+          Your projects deserve to shine. We deliver high definition 3D visuals that captivate, ensuring every detail is crisp and clear.
           </p>
         </div>
         <Image

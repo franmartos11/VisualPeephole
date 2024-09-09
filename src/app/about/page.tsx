@@ -12,8 +12,7 @@ export default function about(){
         <>
         <ImageWithContentAboutUs></ImageWithContentAboutUs>
         <ImageWithContent2AboutUs></ImageWithContent2AboutUs>
-        <AboutUsTeam></AboutUsTeam>
-        <WobbleCardDemo></WobbleCardDemo>
+        
         <div className="mb-[8rem] pt-[9rem] text-center">
                 <h2 className="text-blue-600 text-center font-medium mb-4 block">
                     Our Clients
@@ -22,7 +21,6 @@ export default function about(){
                     Those who trust us
                 </h3>
             </div>
-            
         <MoovingLogos></MoovingLogos>
         <Form></Form>
         </>

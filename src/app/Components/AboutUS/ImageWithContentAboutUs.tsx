@@ -21,12 +21,10 @@ export default function ImageWithContentAboutUs() {
                         </h2>
 
                         <p className="mt-4 text-base text-gray-700">
-                            Welcome to Visual Peephole LLC, a premier 3D visualization studio based in Miami, FL. We specialize in turning your concepts and ideas into stunning, photorealistic visual representations. Our team of experienced professionals is dedicated to providing high-quality services that cater to a wide range of needs in the architecture, real estate, and design industries.
+                            Visual Peephole LLC is a premier visualization studio specializing in architectural and engineering projects. Headquartered in Miami, FL, with sales representatives in Plano, TX, and San Francisco, CA, we are dedicated to delivering the highest quality visualization services.
                             <br />
                             <br />
-                            Our commitment to excellence and innovation drives us to deliver exceptional results that exceed our clients expectations. Whether you are looking to impress potential investors, showcase your design concepts, or enhance project presentations, Visual Peephole is here to help you achieve your goals with unparalleled expertise and creativity.
-
-                            Let us transform your ideas into visual masterpieces and bring your vision to life with our cutting-edge 3D visualization services.
+                            As a team of artists committed to good taste and quality, we bring a refined aesthetic and meticulous attention to detail to every project. Our experienced professionals provide tailored solutions for the architecture, real estate, and design industries. Whether you’re aiming to impress potential investors, bring your design concepts to life, or elevate project presentations, Visual Peephole is here to help you succeed with unmatched expertise and creativity.
                         </p>
                         <div className="mt-12 mb-10 text-center">
                             <Link
