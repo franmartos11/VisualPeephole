@@ -26,7 +26,7 @@ function Navbar({ className }: { className?: string }) {
                         <HoveredLink href="/">Animations</HoveredLink>
                         <HoveredLink href="/">BIM Solutions</HoveredLink>
                         <HoveredLink href="/Modeling">Modeling</HoveredLink>
-                        <HoveredLink href="/">Solid Works</HoveredLink>
+                        <HoveredLink href="/SolidWorks">Solid Works</HoveredLink>
                     </div>
                 </MenuItem>
                 <HoveredLink href="/contact">Contact</HoveredLink>
