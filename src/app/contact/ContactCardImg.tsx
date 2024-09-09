@@ -4,7 +4,7 @@ export default function ContactCardImg() {
         <section className="min-h-screen pt-[8rem]  ">
             <div className="container px-6  mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-10">
-                    <div className="lg:w-1/2 lg:mx-10 bg-gray-100 p-[2.5rem] rounded-2xl">
+                    <div className="lg:w-1/2 lg:mx-10 bg-gray-300 p-[2.5rem] rounded-2xl">
                         <h1 className="text-3xl font-semibold   capitalize text-black lg:text-5xl">
                             Contact Us
                         </h1>
@@ -92,10 +92,10 @@ export default function ContactCardImg() {
 
                     <div className="mt-12 pt-[3rem] lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
                         <Image
-                            className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
-                            src="/logovp.png"
-                            alt="aspa logo"
-                            title="aspa logo"
+                            className="hidden bg-gray-300 object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
+                            src="/logo.png"
+                            alt="Visual Peephole logo"
+                            title="Visual Peephole logo"
                             width={612}
                             height={612}
                         ></Image>
