@@ -32,3 +32,31 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+@media (max-width: 580px) {
+  .logo {
+      height: 3rem;
+  }
+}
+@media (max-width: 512px) {
+  .logo {
+      height: 2rem;
+  }
+}
+@media (max-width: 456px) {
+  .logo {
+      height: 1.5rem;
+  }
+}
+@media (max-width: 426px) {
+  .logo {
+      height: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+      display: none;
+  }
+  
+}
