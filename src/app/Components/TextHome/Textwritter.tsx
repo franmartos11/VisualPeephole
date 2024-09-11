@@ -4,12 +4,12 @@ import { TypewriterEffectSmooth } from "./TypeEfect";
 
 export function TypewriterEffectSmoothDemoHome() {
     const words = [
-        { text: "Affordable" },
+        { text: "Cost" },
+        { text: "Effective" },
         { text: "3D" },
-        { text: "Rendering" },
-        { text: "with" },
-        { text: "Professional" },
-        { text: "Excellence" },
+        { text: "Visualization" },
+        { text: "Services" },
+        
     ];
 
     return (

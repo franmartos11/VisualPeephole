@@ -119,7 +119,7 @@ export default function MoovingLogos() {
                             src="/ddslogo.png"
                             title="logo"
                             alt="logo"
-                            className=" h-[5rem]"
+                            className=" h-[3rem]"
                         />
                     </a>
 
@@ -239,7 +239,7 @@ export default function MoovingLogos() {
                             src="/ddslogo.png"
                             title="logo"
                             alt="logo"
-                            className=" h-[5rem]"
+                            className=" h-[3rem]"
                         />
                     </a>
                 </div>

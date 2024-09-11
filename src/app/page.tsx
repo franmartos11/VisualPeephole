@@ -6,8 +6,7 @@ import Form from "./Components/Forms/Form";
 import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
 import { TypewriterEffectSmoothDemoHome } from "./Components/TextHome/Textwritter";
 import { TimelineDemo } from "./Components/StepperHowWeWork/TimelineDemo";
-
-
+import Promo from "./Components/Promo/Promo";
 
 export default function Home() {
   return (
@@ -17,6 +16,7 @@ export default function Home() {
       <CardHoverEffectDemo></CardHoverEffectDemo>
       <WobbleCardDemo></WobbleCardDemo>
       <TimelineDemo></TimelineDemo>
+      <Promo></Promo>
       <SkeletonFour></SkeletonFour>
       <MoovingLogos></MoovingLogos>
       <Form></Form>
