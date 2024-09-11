@@ -93,7 +93,7 @@ export default function ContactCardImg() {
                     <div className="mt-12 pt-[3rem] lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
                         <Image
                             className="hidden bg-gray-300 object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
-                            src="/logo.png"
+                            src="/logo2.png"
                             alt="Visual Peephole logo"
                             title="Visual Peephole logo"
                             width={612}

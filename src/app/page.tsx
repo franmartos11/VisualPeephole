@@ -7,6 +7,8 @@ import MoovingLogos from "./Components/MoovingLogos/MoovingLogos";
 import { TypewriterEffectSmoothDemoHome } from "./Components/TextHome/Textwritter";
 import { TimelineDemo } from "./Components/StepperHowWeWork/TimelineDemo";
 import Promo from "./Components/Promo/Promo";
+import { GoogleMap } from "@react-google-maps/api";
+import GoogleMapComponent from "./Components/GoogleMaps/GoogleMapComponent";
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
       <SkeletonFour></SkeletonFour>
       <MoovingLogos></MoovingLogos>
       <Form></Form>
+      
     </main>
   );
 }
