@@ -52,8 +52,14 @@ body {
   }
 }
 @media (max-width: 426px) {
+  .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
   .logo {
-      height: 1rem;
+    display: none;
   }
 }
 
