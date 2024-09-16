@@ -1,6 +1,6 @@
 export default function FeatureExteriorRender() {
     return (
-        <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
+        <div className="max-w-screen-xl gowun-batang-regular mx-auto py-8 px-4 lg:py-16 lg:px-6">
             <div className="text-center mb-10">
                 <h2 className="text-4xl text-black font-bold">Why Choose Our Exterior Renderings?</h2>
             </div>

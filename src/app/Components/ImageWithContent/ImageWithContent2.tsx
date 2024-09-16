@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ImageWithContent2() {
     return (
         <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
                         
@@ -14,7 +14,7 @@ export default function ImageWithContent2() {
                     />
                     </div>
                     <div className="lg:py-24">
-                        <h2 className="text-4xl text-black font-bold ">
+                        <h2 className="text-4xl gowun-batang-bold text-black  ">
                         Turn Your Vision into Reality
                         </h2>
                         <p className="mt-4 text-base text-gray-800">

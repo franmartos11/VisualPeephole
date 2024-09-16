@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ImageWithContentAboutUs() {
     return (
         <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8">
+            <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className=" h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
                         <Image

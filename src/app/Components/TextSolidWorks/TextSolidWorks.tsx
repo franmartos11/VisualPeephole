@@ -13,7 +13,7 @@ export function TextSolidWorks() {
     ];
 
     return (
-        <div className="relative flex flex-col items-center justify-center h-screen">
+        <div className="relative gowun-batang-regular flex flex-col items-center justify-center h-screen">
             
             <Image
                 src="/solidworks2.jpg" 
@@ -27,7 +27,7 @@ export function TextSolidWorks() {
                 <div className="hidden md:flex">
                     <TypewriterEffectSmooth words={words} />
                 </div>
-                <h1 className="text-white text-center text-4xl md:hidden">
+                <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
                 Top-Rated SolidWorks Design and Engineering Services
                 </h1>
             </div>

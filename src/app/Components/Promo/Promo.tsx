@@ -1,10 +1,10 @@
 export default function Promo() {
     return (
         <section className="container mx-auto px-[1rem] lg:px-[10rem] md:px-[2rem] py-12 md:py-24">
-            <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="flex flex-col md:flex-row items-center gowun-batang-regular justify-between">
 
                 <div className="w-full md:w-1/2 mb-8 md:mb-0">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">NEED A QUOTE?</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 gowun-batang-bold">NEED A QUOTE?</h1>
                     <p className="text-xl text-gray-600 mb-6">Your 3D renderings will look stunning. Our renderings meet all the requirements of your design, contributing to your projects success by impressing potential investors.</p>
                 </div>
 

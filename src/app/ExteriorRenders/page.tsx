@@ -8,7 +8,6 @@ import { TypewriterEffectSmoothDemo } from "../Components/Text/Textwritter";
 export default function ExteriorRenders() {
   return (
     <main >
-        
         <TypewriterEffectSmoothDemo></TypewriterEffectSmoothDemo>
         <ImgsExplication></ImgsExplication>
         <FeatureExteriorRender></FeatureExteriorRender>
@@ -16,7 +15,6 @@ export default function ExteriorRenders() {
         <Promo></Promo>
         <ImageWithContent2></ImageWithContent2>
         <Form></Form>
-        
     </main>
   );
 }

@@ -13,7 +13,7 @@ export function TextModeling() {
     ];
 
     return (
-        <div className="relative flex flex-col items-center justify-center h-screen">
+        <div className="relative gowun-batang-regular flex flex-col items-center justify-center h-screen">
             {/* Agregamos la imagen de fondo con el componente Image */}
             <Image
                 src="/bedModeling.jpg" // Ruta de la imagen
@@ -28,7 +28,7 @@ export function TextModeling() {
                     {/* Mostrar TypewriterEffectSmooth solo en pantallas mayores a 768px */}
                     <TypewriterEffectSmooth words={words} />
                 </div>
-                <h1 className="text-white text-center text-4xl md:hidden">
+                <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
                     High Quality 3D Object Modeling Services
                 </h1>
             </div>

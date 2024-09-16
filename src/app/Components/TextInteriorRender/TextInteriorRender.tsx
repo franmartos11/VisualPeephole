@@ -14,7 +14,7 @@ export function TextInteriorRender() {
     ];
 
     return (
-        <div className="relative flex flex-col items-center justify-center h-screen bg-cover bg-center">
+        <div className="relative gowun-batang-bold flex flex-col items-center justify-center h-screen bg-cover bg-center">
             {/* Agregamos una imagen de fondo con el componente Image */}
             <Image
                 src="/8.jpg" // Ruta de la imagen
@@ -29,7 +29,7 @@ export function TextInteriorRender() {
                     {/* Mostrar TypewriterEffectSmooth solo en pantallas mayores a 768px */}
                     <TypewriterEffectSmooth words={words} />
                 </div>
-                <h1 className="text-white text-center text-4xl md:hidden">
+                <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
                     Visualpeephole, affordable 3D Rendering With Professional Excellence
                 </h1>
             </div>

@@ -6,11 +6,11 @@ import { WobbleCard } from "./Wooble";
 export function WobbleCardDemo() {
   return (
     <div className="p-[1rem]">
-      <h3 className=" pt-[2rem]  text-4xl font-semibold  text-center">
+      <h3 className=" pt-[2rem] gowun-batang-bold  text-4xl font-semibold  text-center">
          What Sets Us Apart
       </h3>
     
-    <div className="grid grid-cols-1 pt-[5rem] lg:grid-cols-3 gap-4 max-w-[74rem] mx-auto w-full">
+    <div className="grid gowun-batang-regular grid-cols-1 pt-[5rem] lg:grid-cols-3 gap-4 max-w-[74rem] mx-auto w-full">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-[#000] min-h-[500px] lg:min-h-[300px]"
         className=""

@@ -71,7 +71,7 @@ export default function ImgsExplication() {
     const currentTestimonial = testimonialsData[currentTestimonialIndex];
 
     return (
-        <section className="relative flex flex-col items-center pt-[5rem]">
+        <section className="relative gowun-batang-regular flex flex-col items-center pt-[5rem]">
             <div className="text-center mb-8">
                 <h2 className="text-4xl text-black pt-16 pb-8 font-semibold">
                     Some of our latest exterior renders.

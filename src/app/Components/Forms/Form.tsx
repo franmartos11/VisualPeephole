@@ -1,6 +1,6 @@
 export default function Form() {
     return (
-        <section className=" pt-[5rem] pb-[1rem]">
+        <section className=" pt-[5rem] pb-[3rem] gowun-batang-regular">
             <div className="py-[2rem] lg:py-16 px-[3rem] mx-auto max-w-screen-md bg-gray-200 rounded-[1rem] shadow-xl">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black text-center ">
                     Contact Us

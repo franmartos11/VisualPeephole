@@ -34,6 +34,9 @@ export default function RootLayout({
         <meta name="robots" content="index, follow"></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"></meta>
         <meta name="language" content="English"></meta>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"></link>
       </head>
       <body className={inter.className}>
         <div className="!scroll-smooth">

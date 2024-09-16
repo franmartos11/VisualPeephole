@@ -2,7 +2,7 @@ export default function FeatureSolidWorks() {
     return (
         <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
             <div className="text-center mb-10">
-                <h2 className="text-4xl text-black font-bold">Why Choose Our SolidWorks Services?</h2>
+                <h2 className="text-4xl gowun-batang-regular text-black font-bold">Why Choose Our SolidWorks Services?</h2>
             </div>
 
             <div className="flex flex-col lg:flex-row">

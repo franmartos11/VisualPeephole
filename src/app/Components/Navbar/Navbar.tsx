@@ -14,8 +14,8 @@ function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
         <nav
-            className={cn("fixed inset-x-0 mx-auto z-50 flex justify-between items-center bg-white p-[0.6rem] border-b-2 border-gray-300", className)}
-        >   <div><img src="/logo.png" alt="Company Logo" className=" logo h-[4rem] w-auto" /></div>
+            className={cn("fixed gowun-batang-bold inset-x-0 mx-auto z-50 flex justify-between items-center bg-white p-[0.6rem] border-b-2 border-gray-300", className)}
+        >   <div><a href="/"><img src="/logo.png" alt="Company Logo" className=" logo h-[4rem] w-auto" /></a></div>
             
             <div className=" option pr-[0rem] sm:pr-[5rem] lg:pr-[10rem]">
               <Menu setActive={setActive} >

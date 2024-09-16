@@ -10,7 +10,6 @@ export function TimelineDemo() {
           <p className=" text-xs md:text-lg  mb-8">
             We begin by discussing your project requirements to understand your vision, objectives, and specific needs. This includes gathering detailed information on style preferences, format, and deadlines.</p>
           <div  >
-
             <Image
               src="/peopleWorking3.jpg"
               alt="People Working"
@@ -18,8 +17,6 @@ export function TimelineDemo() {
               height={1000}
               className="rounded-lg object-cover h-40 md:h-80 lg:h-[25rem] w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-
-
           </div>
         </div>
       ),
@@ -92,7 +89,7 @@ export function TimelineDemo() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full gowun-batang-regular">
       <Timeline data={data} />
     </div>
   );

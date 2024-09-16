@@ -14,7 +14,7 @@ export function TypewriterEffectSmoothDemo() {
     ];
 
     return (
-        <div className="relative flex flex-col items-center justify-center h-screen">
+        <div className="relative gowun-batang-regular flex flex-col items-center justify-center h-screen">
             {/* Agregamos la imagen de fondo con el componente Image */}
             <Image
                 src="/12.jpg" // Ruta de la imagen
@@ -29,7 +29,7 @@ export function TypewriterEffectSmoothDemo() {
                     {/* Mostrar TypewriterEffectSmooth solo en pantallas mayores a 768px */}
                     <TypewriterEffectSmooth words={words} />
                 </div>
-                <h1 className="text-white text-center text-4xl md:hidden">
+                <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
                     Exterior Renderings That Bring Your Vision To Life
                 </h1>
             </div>
