@@ -178,7 +178,7 @@ export default function ContactCardImg() {
                                         title="link"
                                         href="mailto:info@Visualpeephole.com"
                                     >
-                                        info@Visualpeephole.com
+                                        info@visualpeephole.com
                                     </a>
                                 </span>
                             </p>

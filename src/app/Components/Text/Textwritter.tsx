@@ -10,7 +10,7 @@ export function TypewriterEffectSmoothDemo() {
         { text: "Bring" },
         { text: "Your" },
         { text: "Vision" },
-        { text: "to Life.", className: "text-blue-500 dark:text-blue-500" },
+        { text: "to Life", className: "text-blue-500 dark:text-blue-500" },
     ];
 
     return (
