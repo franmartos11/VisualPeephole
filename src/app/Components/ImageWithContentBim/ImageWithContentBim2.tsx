@@ -9,7 +9,7 @@ export default function ImageWithContentBim2() {
                         
                         <img
                         className="w-full h-full object-cover rounded-lg "
-                        src="/12.jpg"
+                        src="/Various_09-min.jpeg"
                         alt="can_help_banner"
                     />
                     </div>

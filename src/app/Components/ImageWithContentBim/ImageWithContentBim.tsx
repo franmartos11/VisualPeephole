@@ -10,7 +10,7 @@ export default function ImageWithContentBim() {
                     
                         <img
                         className="w-full h-full object-cover rounded-lg "
-                        src="/renderOut.webp"
+                        src="/Various_03-min.png"
                         alt="can_help_banner"
                     />
                     </div>
@@ -23,7 +23,7 @@ export default function ImageWithContentBim() {
                         Unlock the full potential of your projects with our comprehensive MEP services. At Visual Peephole, we take complete ownership of the Model-Coordination process, acting as an extension of your in-house BIM team. Our expertise enhances your teams capacity, ensuring seamless integration and coordination across all mechanical, electrical, and plumbing systems.
                             <br />
                             <br />
-                            Partner with us and experience the difference that expert MEP modeling, coordination, and digital fabrication can make. Lets build the future together.
+                            Experience the impact of our expert MEP modeling, precise coordination, and advanced digital fabrication services. Together, we can build a sustainable and innovative future. Join us and see the difference our expertise can make.
                         </p>
                         <div className="mt-12 mb-10 text-center">
                             <Link

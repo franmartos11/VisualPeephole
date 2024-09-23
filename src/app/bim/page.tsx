@@ -3,8 +3,9 @@ import FeatureExteriorBim from "../Components/FeatureExteriorBim/FeatureExterior
 import Form from "../Components/Forms/Form";
 import ImageWithContentBim from "../Components/ImageWithContentBim/ImageWithContentBim";
 import ImageWithContentBim2 from "../Components/ImageWithContentBim/ImageWithContentBim2";
-import ImgsExplicationBim from "../Components/ImgsExplicationBim/ImgsExplicationInterior";
+import ImgsExplicationBim from "../Components/ImgsExplicationBim/ImgsExplicationBim";
 import Promo from "../Components/Promo/Promo";
+import PromoBim from "../Components/PromoBim/PromoBim";
 import { TextBim } from "../Components/TextBim/TextBim";
 
 
@@ -15,7 +16,7 @@ export default function bim(){
         <ImgsExplicationBim></ImgsExplicationBim>
         <FeatureExteriorBim></FeatureExteriorBim>
         <ImageWithContentBim></ImageWithContentBim>
-        <Promo></Promo>
+        <PromoBim></PromoBim>
         <ImageWithContentBim2></ImageWithContentBim2>
         <Form></Form>
         </>

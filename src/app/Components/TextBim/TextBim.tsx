@@ -28,7 +28,7 @@ export function TextBim() {
                     <TypewriterEffectSmooth words={words} />
                 </div>
                 <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
-                    Transform Your Projects with Our BIM Expertise
+                    Develop Your Projects with Our BIM Expertise
                 </h1>
             </div>
         </div>

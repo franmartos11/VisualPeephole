@@ -9,7 +9,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/10.jpg",
+            image: "/Various_14-min.png",
         },
         {
             id: 3,
@@ -17,7 +17,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/6.jpg",
+            image: "/Various_12-min.jpeg",
         },
         {
             id: 4,
@@ -25,7 +25,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/12i.jpg",
+            image: "/Various_10-min.jpeg",
         },
         {
             id: 5,
@@ -33,7 +33,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/5i.jpg",
+            image: "/Various_04-min.jpeg",
         },
         {
             id: 6,
@@ -41,7 +41,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/1i.jpg",
+            image: "/Various_05-min.png",
         },
         {
             id: 2,
@@ -49,7 +49,7 @@ export default function ImgsExplicationBim() {
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/8.jpg",
+            image: "/Various_06-min.png",
         },
         
     ];
@@ -74,7 +74,7 @@ export default function ImgsExplicationBim() {
         <section className="relative gowun-batang-regular flex flex-col items-center pt-[5rem]">
             <div className="text-center mb-8">
                 <h2 className="text-4xl text-black pt-16 pb-8 font-semibold">
-                    Some of our latest Bim Proyects
+                    Some of our latest BIM Proyects
                 </h2>
             </div>
             <div className="p-4 lg:ml-8 lg:mt-0 flex-col justify-center align-middle text-center">
