@@ -8,7 +8,7 @@ export default function ImageWithContentModeling() {
                     
                         <img
                         className="w-full h-full object-cover rounded-lg "
-                        src="/modeling5.jpg"
+                        src="/modeling1.jpg"
                         alt="can_help_banner"
                     />
                     </div>

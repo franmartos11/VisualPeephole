@@ -12,9 +12,9 @@ export default function Modeling(){
             <TextModeling></TextModeling>
             <ImgsExplicationModeling></ImgsExplicationModeling>
             <FeatureModeling></FeatureModeling>
-            <ImageWithContent2Modeling></ImageWithContent2Modeling>
-            <Promo></Promo>
             <ImageWithContentModeling></ImageWithContentModeling>
+            <Promo></Promo>
+            <ImageWithContent2Modeling></ImageWithContent2Modeling>
             <Form></Form>
         </div>
     )

@@ -16,7 +16,7 @@ export function TextModeling() {
         <div className="relative gowun-batang-regular flex flex-col items-center justify-center h-screen">
             {/* Agregamos la imagen de fondo con el componente Image */}
             <Image
-                src="/bedModeling.jpg" // Ruta de la imagen
+                src="/modeling4.jpg" // Ruta de la imagen
                 alt="Background Image"
                 layout="fill" // Ocupa todo el contenedor
                 objectFit="cover" // Asegura que la imagen cubra el área
