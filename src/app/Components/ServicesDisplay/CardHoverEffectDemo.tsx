@@ -38,7 +38,7 @@ export const projects = [
         title: "BIM SOLUTIONS",
         description:
             "Optimize project efficiency with our BIM solutions, delivering integrated workflows for seamless design and construction management.",
-        link: "/BimSolutions",
+        link: "/bim",
     },
     {
         title: "SOLIDWORKS",
