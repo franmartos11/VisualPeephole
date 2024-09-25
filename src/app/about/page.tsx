@@ -10,9 +10,9 @@ import { WobbleCardDemo } from "../Components/WobbleCard/WoobleCardDemo";
 export default function about(){
     return(
         <>
-        <ImageWithContentAboutUs></ImageWithContentAboutUs>
         <ImageWithContent2AboutUs></ImageWithContent2AboutUs>
-        
+        <ImageWithContentAboutUs></ImageWithContentAboutUs>
+    
         <div className="mb-[8rem] pt-[9rem] text-center">
                 <h2 className="text-blue-600 text-center font-medium mb-4 block">
                     Our Clients
