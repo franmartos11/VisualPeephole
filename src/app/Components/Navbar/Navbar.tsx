@@ -26,7 +26,7 @@ function Navbar({ className }: { className?: string }) {
                         <div className="flex flex-col space-y-4 text-lg">
                             <HoveredLink href="/ExteriorRenders">Exterior Renderings</HoveredLink>
                             <HoveredLink href="/InteriorRenders">Interior Renderings</HoveredLink>
-                            <HoveredLink href="/">Animations</HoveredLink>
+                            <HoveredLink href="/Animations">Animations</HoveredLink>
                             <HoveredLink href="/bim">BIM Solutions</HoveredLink>
                             <HoveredLink href="/Modeling">Modeling</HoveredLink>
                             <HoveredLink href="/SolidWorks">Solidworks</HoveredLink>
