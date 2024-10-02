@@ -2,13 +2,13 @@
 import Link from "next/link";
 export default function ImageWithContentAboutUs2() {
     return (
-        <section className="pt-[8rem]">
+        <section className="pt-[0rem]">
             <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
+                    <div className="relative h-[20rem] overflow-hidden rounded-lg sm:h-[25rem] lg:h-full">
                         <img
-                            className="h-[90%] rounded-lg w-full object-fill "
-                            src="/team.jpg"
+                            className="h-[90%] rounded-lg w-full object-cover "
+                            src="/vpLogo.png"
                             alt="can_help_banner"
                         />
                     </div>
@@ -25,12 +25,13 @@ export default function ImageWithContentAboutUs2() {
                             <Link
                                 title="link"
                                 href="/contact"
-                                className="inline-block rounded bg-blue-400 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-400"
+                                className="inline-block rounded bg-gray-400 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-400"
                             >
                                 Contact Us
                             </Link>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>

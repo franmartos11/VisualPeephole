@@ -1,19 +1,15 @@
 import Link from "next/link";
-import Image from "next/image";
 export default function ImageWithContentAboutUs() {
     return (
         <section>
-            <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8">
+            <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8 pb-[0rem]">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div className=" h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full">
-                        <Image
-                            alt="quienes somos"
-                            title="quienes somos"
-                            src="/vp.png"
-                            className=" h-[80%] rounded-lg w-full object-cover "
-                            width={500}
-                            height={100}
-                        ></Image>
+                <div className="relative h-[20rem] overflow-hidden rounded-lg sm:h-[25rem] lg:h-full">
+                        <img
+                            className="h-[90%] rounded-lg w-full object-cover "
+                            src="/team.jpg"
+                            alt="can_help_banner"
+                        />
                     </div>
                     <div className="lg:py-24">
                         <h2 className="text-4xl uppercase  font-bold">
@@ -30,7 +26,7 @@ export default function ImageWithContentAboutUs() {
                             <Link
                                 title="link"
                                 href="/contact"
-                                className="inline-block rounded bg-blue-400 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-400"
+                                className="inline-block rounded bg-gray-400 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-400"
                             >
                                 Contct Us
                             </Link>
