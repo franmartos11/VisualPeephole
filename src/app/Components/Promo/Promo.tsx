@@ -30,7 +30,7 @@ export default function Promo() {
                             </li>
                         </ul>
                         <div className="space-y-4">
-                            <a href="#" className="block text-center bg-gray-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-500 transition duration-300">Get Started</a>
+                            <a href="/contact" className="block text-center bg-gray-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-500 transition duration-300">Get Started</a>
                         </div>
                     </div>
                 </div>
