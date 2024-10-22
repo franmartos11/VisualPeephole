@@ -1,5 +1,4 @@
 "use client";
-import Image from 'next/image';
 import { TypewriterEffectSmooth } from "./TypeEfect";
 
 export function TextAnimations() {
@@ -13,14 +12,14 @@ export function TextAnimations() {
 
     return (
         <div className="relative gowun-batang-bold flex flex-col items-center justify-center h-screen bg-cover bg-center">
-            {/* Agregamos una imagen de fondo con el componente Image */}
-            <Image
-                src="/8.jpg" // Ruta de la imagen
-                alt="Background Image"
-                layout="fill" // Ocupa todo el contenedor
-                objectFit="cover" // Asegura que la imagen cubra el área
-                priority // Hace que la imagen se cargue con alta prioridad
-                className="absolute inset-0"
+            {/* Agregamos un video de fondo */}
+            <video
+                src="/Animation2.mp4" // Ruta del video
+                autoPlay
+                loop
+                muted // Desactiva el sonido
+                playsInline
+                className="absolute inset-0 object-cover w-full h-full"
             />
             <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col items-center justify-center backdrop-blur-[0.03rem]">
                 <div className="hidden md:flex">

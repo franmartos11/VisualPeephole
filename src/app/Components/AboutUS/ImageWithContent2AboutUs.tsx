@@ -20,7 +20,8 @@ export default function ImageWithContentAboutUs2() {
                             At Visualpeephole LLC, we are driven by innovation and a relentless pursuit of excellence. Our commitment to exceeding client expectations ensures that every project is executed with meticulous care and precision. We focus on delivering exceptional results, leveraging cutting-edge technology and industry expertise to bring your vision to life. Join us on our journey to redefine engineering and design excellence.
                             <br />
                             <br />
-                            Our vision extends beyond just meeting project requirements; we aim to inspire and lead in the field of engineering and design. By fostering a culture of continuous improvement and embracing the latest advancements, we empower our clients to achieve their goals and set new standards in their industries. Partner with us to experience the future of engineering today.
+                            Our vision extends beyond just meeting project requirements; we aim to inspire and lead in the field of engineering and design. By fostering a culture of continuous improvement and embracing the latest advancements, we empower our clients to achieve their goals and set new standards in their industries.Partner with us to experience the future of design and engineering today.
+
                         </p><div className="mt-12 mb-10 text-center">
                             <Link
                                 title="link"

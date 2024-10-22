@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function ImageWithContentAboutUs() {
     return (
-        <section>
+        <section className="">
             <div className="mx-auto gowun-batang-regular max-w-screen-xl px-4 py-[7rem] sm:py-[8rem] sm:px-6 lg:py-[15rem] lg:px-8 pb-[0rem]">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div className="relative h-[20rem] overflow-hidden rounded-lg sm:h-[25rem] lg:h-full">
@@ -28,7 +28,7 @@ export default function ImageWithContentAboutUs() {
                                 href="/contact"
                                 className="inline-block rounded bg-gray-400 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-400"
                             >
-                                Contct Us
+                                Contact Us
                             </Link>
                         </div>
                     </div>
