@@ -21,6 +21,15 @@ export default function ImgsExplicationModeling() {
             image: "/modeling2.jpg",
         },
         {
+            id: 7,
+            title: "Street View Storefronts Rendering",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/Accent Chair_01-min.jpg",
+        },
+        
+        {
             id: 6,
             title: "Commercial Building with Storefronts Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
@@ -43,6 +52,22 @@ export default function ImgsExplicationModeling() {
             author: "Joaquín Metral",
             position: "Cliente",
             image: "/modeling3.jpg",
+        },
+        {
+            id: 8,
+            title: "Street View Storefronts Rendering",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/Building Modeling_01-min.JPG",
+        },
+        {
+            id: 9,
+            title: "Street View Storefronts Rendering",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/Building Modeling_03-min.JPG",
         },
         
         
