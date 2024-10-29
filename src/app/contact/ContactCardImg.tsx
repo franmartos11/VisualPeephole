@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function ContactCardImg() {
     return (
-        <section className="min-h-screen pt-[8rem] gowun-batang-regular  ">
+        <section className="min-h-screen pt-[8rem] pb-[7.8rem] gowun-batang-regular  ">
             <div className="container px-6  mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-10">
                     <div className="lg:w-1/2 lg:mx-10 bg-gray-300 p-[2.5rem] rounded-2xl">
