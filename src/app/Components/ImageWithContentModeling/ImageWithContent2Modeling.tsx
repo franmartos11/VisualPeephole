@@ -9,7 +9,7 @@ export default function ImageWithContent2Modeling() {
                         
                         <img
                         className="w-full h-full object-cover rounded-lg "
-                        src="/modeling2.jpg"
+                        src="/Building Modeling_02.JPG"
                         alt="can_help_banner"
                     />
                     </div>

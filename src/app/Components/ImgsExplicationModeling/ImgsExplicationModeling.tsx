@@ -5,12 +5,12 @@ export default function ImgsExplicationModeling() {
     const testimonialsData = [
         
         {
-            id: 3,
-            title: "Commercial Storefronts Rendering",
+            id: 7,
+            title: "Street View Storefronts Rendering",
             content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
             author: "Joaquín Metral",
             position: "Cliente",
-            image: "/modeling1.jpg",
+            image: "/Accent Chair_01-min.jpg",
         },
         {
             id: 4,
@@ -20,14 +20,7 @@ export default function ImgsExplicationModeling() {
             position: "Cliente",
             image: "/modeling2.jpg",
         },
-        {
-            id: 7,
-            title: "Street View Storefronts Rendering",
-            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
-            author: "Joaquín Metral",
-            position: "Cliente",
-            image: "/Accent Chair_01-min.jpg",
-        },
+        
         {
             id: 10,
             title: "Street View Storefronts Rendering",
@@ -84,6 +77,13 @@ export default function ImgsExplicationModeling() {
             author: "Joaquín Metral",
             position: "Cliente",
             image: "/Building Modeling_04.JPG",
+        },{
+            id: 3,
+            title: "Commercial Storefronts Rendering",
+            content: "Digital render of a modern bedroom with large floor-to-ceiling windows offering a stunning view of the sea, greenery, and distant wind turbines. The interior is contemporary and minimalistic, featuring a bed, chairs, and tables. Natural light floods the space, creating a bright and airy atmosphere, perfect for showcasing architectural design",
+            author: "Joaquín Metral",
+            position: "Cliente",
+            image: "/modeling1.jpg",
         },
         
         
