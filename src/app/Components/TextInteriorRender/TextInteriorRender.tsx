@@ -30,7 +30,7 @@ export function TextInteriorRender() {
                     <TypewriterEffectSmooth words={words} />
                 </div>
                 <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
-                    Visualpeephole, affordable 3D Rendering With Professional Excellence
+                Interior Renderings That Bring Your Vision to Life
                 </h1>
             </div>
         </div>
