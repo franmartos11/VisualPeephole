@@ -27,9 +27,8 @@ export function TypewriterEffectSmoothDemoHome() {
                 <div className="hidden md:flex">
                     <TypewriterEffectSmooth words={words} />
                 </div>
-                <h1 className="text-white gowun-batang-regular text-center text-4xl md:hidden">
-                    Visual Peephole, affordable 3D Rendering With Professional Excellence
-                </h1>
+                
+                <img className="text-white gowun-batang-regular text-center text-4xl md:hidden" src='/logo_with_white_text_and_outline.png'></img>
             </div>
         </div>
     );
