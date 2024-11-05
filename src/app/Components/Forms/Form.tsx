@@ -36,14 +36,14 @@ export default function ContactForm() {
       });
 
       if (response.ok) {
-        alert('Correo enviado exitosamente');
+        alert('Email sended');
         setFormData({ name: '', email: '', pn: '', subject: '', message: '' });
       } else {
-        alert('Hubo un problema al enviar el correo');
+        alert('Error');
       }
     } catch (error) {
       console.error(error);
-      alert('Error al enviar el correo');
+      alert('Error');
     }
   };
 
