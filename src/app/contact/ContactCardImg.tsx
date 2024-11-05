@@ -57,7 +57,7 @@ export default function ContactCardImg() {
             <h1 className="text-3xl font-semibold capitalize text-black lg:text-5xl">Contact Us</h1>
 
             <p className="mt-4 text-gray-800">
-              We're here to help! Fill out the form below, and we'll be happy to answer your questions, discuss potential collaborations, or explore your ideas.
+              We are here to help! Fill out the form below, and we will be happy to answer your questions, discuss potential collaborations, or explore your ideas.
             </p>
 
             <form className="mt-12" onSubmit={handleSubmit}>
