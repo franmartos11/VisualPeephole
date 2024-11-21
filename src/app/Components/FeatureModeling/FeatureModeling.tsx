@@ -11,7 +11,7 @@ export default function FeatureModeling() {
                     <img
                         className="w-full h-full object-cover rounded-lg "
                         src="/modeling3.jpg"
-                        alt="can_help_banner"
+                        alt="can_help_bannerr"
                     />
                 </div>
 
