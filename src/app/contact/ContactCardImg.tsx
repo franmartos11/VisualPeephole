@@ -188,7 +188,7 @@ export default function ContactCardImg() {
                   />
                 </svg>
                 <span className="mx-2 truncate w-72 ms:w-50 text-gray-600">
-                  <a href="tel:+17866544082?">+1 (786) 654 4082</a>
+                  <a href="tel:+12672816799?">+1 (267) 281 6799</a>
                 </span>
               </p>
 
