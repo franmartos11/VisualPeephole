@@ -18,8 +18,8 @@ export function TextBim() {
             <Image
                 src="/bim.webp"
                 alt="Background Image"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 priority
                 className="absolute inset-0"
             />

@@ -14,13 +14,13 @@ export function TextSolidWorks() {
 
     return (
         <div className="relative gowun-batang-regular flex flex-col items-center justify-center h-screen">
-            
+
             <Image
-                src="/solidworks2.jpg" 
+                src="/solidworks2.jpg"
                 alt="Background Image"
-                layout="fill" 
-                objectFit="cover" 
-                priority 
+                fill
+                style={{ objectFit: "cover" }}
+                priority
                 className="absolute inset-0"
             />
             <div className="absolute inset-0 bg-black bg-opacity-10 backdrop-blur-[0.2rem] flex flex-col items-center justify-center">
@@ -28,7 +28,7 @@ export function TextSolidWorks() {
                     <TypewriterEffectSmooth words={words} />
                 </div>
                 <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
-                Top-Rated SolidWorks Design and Engineering Services
+                    Top-Rated SolidWorks Design and Engineering Services
                 </h1>
             </div>
         </div>

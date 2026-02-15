@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function MoovingLogos() {
     return (
         <div className="pb-[10rem] hidden lg:block ">
@@ -11,12 +13,15 @@ export default function MoovingLogos() {
                         href="https://www.aspectinc.net"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/LogoAspect.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4rem] "
-                        />
+                        <div className="relative h-[4rem] w-full">
+                            <Image
+                                src="/LogoAspect.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -24,12 +29,15 @@ export default function MoovingLogos() {
                         href="https://servteching.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/logo-servechi.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem] "
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/logo-servechi.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -37,12 +45,15 @@ export default function MoovingLogos() {
                         href="https://www.technoglobalinc.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/techno_global_inc__logo.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem] "
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/techno_global_inc__logo.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -50,12 +61,15 @@ export default function MoovingLogos() {
                         href="https://wilesdesigngroup.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/lwlogo.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/lwlogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -63,12 +77,15 @@ export default function MoovingLogos() {
                         href=" https://www.carrollarch.com/"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem] "
                     >
-                        <img
-                            src="/carrollogo.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4.4rem]"
-                        />
+                        <div className="relative h-[4.4rem] w-full">
+                            <Image
+                                src="/carrollogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -76,12 +93,15 @@ export default function MoovingLogos() {
                         href=" https://faoarchitecture.com/"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/faologo.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4rem]"
-                        />
+                        <div className="relative h-[4rem] w-full">
+                            <Image
+                                src="/faologo.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -89,12 +109,15 @@ export default function MoovingLogos() {
                         href="https://www.dazadesignsinc.com/"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/dazalogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/dazalogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -102,12 +125,15 @@ export default function MoovingLogos() {
                         href="https://www.michaelkeeganrealty.com"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/mklogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/mklogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -115,12 +141,15 @@ export default function MoovingLogos() {
                         href="https://designdraftingservices.us"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/ddslogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[3rem]"
-                        />
+                        <div className="relative h-[3rem] w-full">
+                            <Image
+                                src="/ddslogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
 
                 </div>
@@ -131,12 +160,15 @@ export default function MoovingLogos() {
                         href="https://www.aspectinc.net"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/LogoAspect.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4rem] "
-                        />
+                        <div className="relative h-[4rem] w-full">
+                            <Image
+                                src="/LogoAspect.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -144,12 +176,15 @@ export default function MoovingLogos() {
                         href="https://servteching.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/logo-servechi.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem] "
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/logo-servechi.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -157,12 +192,15 @@ export default function MoovingLogos() {
                         href="https://www.technoglobalinc.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/techno_global_inc__logo.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem] "
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/techno_global_inc__logo.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -170,12 +208,15 @@ export default function MoovingLogos() {
                         href="https://wilesdesigngroup.com"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/lwlogo.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/lwlogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -183,12 +224,15 @@ export default function MoovingLogos() {
                         href=" https://www.carrollarch.com/"
                         className="flex justify-center items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem] "
                     >
-                        <img
-                            src="/carrollogo.png"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4.4rem]"
-                        />
+                        <div className="relative h-[4.4rem] w-full">
+                            <Image
+                                src="/carrollogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -196,12 +240,15 @@ export default function MoovingLogos() {
                         href=" https://faoarchitecture.com/"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/faologo.jpg"
-                            alt="logo"
-                            title="logo"
-                            className=" h-[4rem]"
-                        />
+                        <div className="relative h-[4rem] w-full">
+                            <Image
+                                src="/faologo.jpg"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -209,12 +256,15 @@ export default function MoovingLogos() {
                         href="https://www.dazadesignsinc.com/"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/dazalogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/dazalogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -222,12 +272,15 @@ export default function MoovingLogos() {
                         href="https://www.michaelkeeganrealty.com"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/mklogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[5rem]"
-                        />
+                        <div className="relative h-[5rem] w-full">
+                            <Image
+                                src="/mklogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                     <a
                         title="link"
@@ -235,12 +288,15 @@ export default function MoovingLogos() {
                         href="https://designdraftingservices.us"
                         className="flex justify-center  items-center border border-solid bg-white border-gray-800 shadow-sm h-24 rounded-2xl w-[20rem] mx-[1rem]"
                     >
-                        <img
-                            src="/ddslogo.png"
-                            title="logo"
-                            alt="logo"
-                            className=" h-[3rem]"
-                        />
+                        <div className="relative h-[3rem] w-full">
+                            <Image
+                                src="/ddslogo.png"
+                                alt="logo"
+                                fill
+                                style={{ objectFit: "contain" }}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                            />
+                        </div>
                     </a>
                 </div>
 

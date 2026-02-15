@@ -19,8 +19,8 @@ export function TextInteriorRender() {
             <Image
                 src="/8.jpg" // Ruta de la imagen
                 alt="Background Image"
-                layout="fill" // Ocupa todo el contenedor
-                objectFit="cover" // Asegura que la imagen cubra el área
+                fill // Ocupa todo el contenedor
+                style={{ objectFit: "cover" }} // Asegura que la imagen cubra el área
                 priority // Hace que la imagen se cargue con alta prioridad
                 className="absolute inset-0"
             />
@@ -30,7 +30,7 @@ export function TextInteriorRender() {
                     <TypewriterEffectSmooth words={words} />
                 </div>
                 <h1 className="text-white gowun-batang-bold text-center text-4xl md:hidden">
-                Interior Renderings That Bring Your Vision to Life
+                    Interior Renderings That Bring Your Vision to Life
                 </h1>
             </div>
         </div>
